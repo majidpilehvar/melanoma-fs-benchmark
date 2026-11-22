@@ -1,0 +1,12 @@
+{
+  "title": "Benchmarking feature selection for melanoma transcriptomics: code and data",
+  "upload_type": "software",
+  "description": "Analysis code, merged expression matrix (from GEO GSE3189, GSE8401, GSE15605, GSE46517) and result files for the article 'Benchmarking feature selection for melanoma transcriptomics: accuracy, stability, tissue composition and cross-cohort generalisation'.",
+  "creators": [
+    {"name": "Pilehvar, Majid", "affiliation": "University of Tabriz"},
+    {"name": "Razmara, Jafar", "affiliation": "University of Tabriz"},
+    {"name": "Karimpour, Jaber", "affiliation": "University of Tabriz"}
+  ],
+  "license": "MIT",
+  "keywords": ["melanoma", "feature selection", "biomarker discovery", "gene expression", "machine learning"]
+}

@@ -1,0 +1,13 @@
+numpy>=1.24
+pandas>=2.0
+scipy>=1.10
+scikit-learn>=1.3
+matplotlib>=3.7
+networkx>=3.0
+# optional reference implementations (auto-detected):
+# minepy
+# boruta>=0.4
+# tensorflow>=2.13
+# online enrichment / STRING:
+# gseapy>=1.0
+# requests

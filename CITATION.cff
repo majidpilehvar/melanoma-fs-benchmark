@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the accompanying article."
+title: "Benchmarking feature selection for melanoma transcriptomics: code and data"
+version: 1.0.0
+date-released: 2026-11-22
+license: MIT
+authors:
+  - family-names: Pilehvar
+    given-names: Majid
+    affiliation: University of Tabriz
+  - family-names: Razmara
+    given-names: Jafar
+    affiliation: University of Tabriz
+  - family-names: Karimpour
+    given-names: Jaber
+    affiliation: University of Tabriz
+repository-code: "https://github.com/majidpilehvar/melanoma-fs-benchmark"

@@ -1,0 +1,100 @@
+"""Text revisions applied to build_pdf.py content (mirrors the doc revision of the review round)."""
+REPL = [
+ ("Thirty-two feature selectors and their consensus for melanoma progression markers: a leakage-free assessment of accuracy, stability, tissue composition and cross-cohort transfer",
+  "Benchmarking feature selection for melanoma transcriptomics: accuracy, stability, tissue composition and cross-cohort generalisation"),
+ ("<b>Short title.</b> Leakage-free feature selection for melanoma markers", "<b>Short title.</b> Feature-selection benchmark for melanoma transcriptomics"),
+ ("A consensus gave median accuracy; LASSO and Kruskal-Wallis did better", "Selector rankings depended on the classifier; no method dominated"),
+ ("PLPPR4 peaks in primary melanoma and escapes metastasis-vs-normal tests", "PLPPR4 is raised in primary melanoma and missed by metastasis-vs-normal tests"),
+ ("Accurate selectors, mostly wrappers and metaheuristics, chose different genes in every fold, while the most stable filters were the least accurate. The consensus reached the median selector's balanced accuracy (0.873) with above-median stability, but LASSO and Kruskal-Wallis did better on both. Its 15 genes outperformed the full transcriptome with a dropout network (balanced accuracy 0.907 against 0.848), and its top five beat 500 random gene sets (p = 0.002). PLPPR4, selected in every fold, peaks in primary melanoma and is missed by metastasis-versus-normal comparisons.",
+  "The most accurate selectors chose different genes in every fold, while the most stable filters were the least accurate. Accuracy differences between leading selectors and the consensus lay within fold-to-fold uncertainty, and rankings changed with the classifier: the consensus was the median selector with k-nearest neighbours but among the best with logistic regression and random forests. Its 15 genes outperformed the full transcriptome with a dropout network (balanced accuracy 0.907 against 0.848), and its top five beat 5,000 random gene sets (p &lt; 0.001). PLPPR4, selected in every fold, is raised in primary melanoma relative to normal skin and metastases, which metastasis-versus-normal comparisons miss."),
+ ("track the progression from normal skin through primary tumour to metastasis would support earlier risk stratification", "separate normal skin, primary tumours and metastases could support risk stratification"),
+ ("Comparing metastases with normal tissue, the two ends of progression, cannot see this pattern", "Comparing metastases with normal tissue cannot see this pattern"),
+ ("LASSO, Kruskal-Wallis and stability selection were best on both counts.", "no selector was best on both counts under every classifier, and stability selection came closest."),
+ ("It matched the median selector, and an ablation shows", "Its accuracy ranged from median under kNN to best under a random forest, and an ablation shows"),
+ ("predicted source study at 0.65 accuracy against a 0.35 majority baseline", "predicted source study at 0.63 accuracy on the main cross-validation folds, against a 0.35 majority baseline"),
+ ("The same was done for 500 random five-gene sets", "The same was done for 5,000 random five-gene sets"),
+ ("Python 3.12 with scikit-learn [33], NumPy, SciPy, pandas and NetworkX.", "Python 3.12.3 with scikit-learn 1.8.0 [33], NumPy 2.4.4, SciPy 1.17.1, pandas 3.0.2, NetworkX 3.6.1 and Matplotlib 3.10.8; every random seed is fixed in the code, and the exact environment is listed in the release."),
+ ("Three selectors combined both properties:", "Under kNN, three selectors combined both properties:"),
+ ("but Kruskal-Wallis, LASSO and stability selection were better on both counts. The ablation",
+  "and under kNN Kruskal-Wallis, LASSO and stability selection were better on both counts, although none of these accuracy differences was statistically distinguishable (Section 3.10). The ablation"),
+ ("whereas 500 random five-gene sets had mean 0.519, 95th percentile 0.650 and maximum 0.722 (Fig. 6). No random set matched the signature (empirical p = 0.002, the smallest attainable with 500 draws).",
+  "whereas 5,000 random five-gene sets had mean 0.512, 95th percentile 0.645 and maximum 0.791 (Fig. 6). None matched the signature (empirical p = 0.0002)."),
+ ("against 500 random five-gene sets evaluated on the same folds", "against 5,000 random five-gene sets evaluated on the same folds"),
+ ("its transient rise in primary tumours with return to baseline in metastases is a pattern worth experimental follow-up",
+  "its elevation in primary tumours relative to both normal skin and metastases is a pattern worth experimental follow-up. Because the three categories come from different patients, this is a cross-sectional difference, not an observed time course"),
+ ("A consensus over all 32 sits between these extremes but does not dominate them: LASSO, Kruskal-Wallis and stability selection were both more accurate and more stable. For a practitioner with no independent cohort on which to choose among selectors, the consensus is a defensible default that avoids the worst outcomes; it is not a route to better markers than a well-chosen single method.",
+  "A consensus over all 32 sits between these extremes. Under kNN it was a median performer that LASSO, Kruskal-Wallis and stability selection beat on both counts; under logistic regression and random forests it ranked among the best, and averaged over the three classifiers it was the most accurate. None of these accuracy differences survives a corrected significance test with five folds. For a practitioner with no independent cohort on which to choose a selector and classifier, the consensus is a defensible default for accuracy; when reproducible gene lists matter most, stability selection offered the better balance here."),
+ ("reported independently [35]", "reported independently [38]"),
+ ("Martinoli et al. [36] linked", "Martinoli et al. [39] linked"),
+ ("EMP3, an epithelial membrane protein, correlates instead with melanocytic content and is highest in primary tumours.",
+  "EMP3, a PMP22-family membrane protein, correlates instead with melanocytic content and is highest in primary tumours; it has been linked to mitogenic receptor signalling and to proliferation and migration of tumour cells [40], although it was first proposed as a tumour suppressor silenced in glioma and neuroblastoma [41]."),
+ ("picked up exactly this intermediate-stage information", "picked up exactly this primary-specific information"),
+ ("make it the strongest tumour-associated candidate in the study.",
+  "make it the strongest tumour-associated candidate in the study. A lipid-signalling interpretation is plausible but untested: PLPPR4 (PRG-1) is a neuronal membrane protein that binds lysophosphatidic acid and modulates its signalling at synapses [42], and lysophosphatidic acid production by autotaxin, a motility factor first purified from melanoma cells [43], is a long-standing theme in melanoma invasion. Melanocytes derive from the neural crest, which makes neuronal-type expression less surprising, but we found no study of PLPPR4 function in melanoma."),
+ ("A transient marker of primary disease also has a plausible clinical use that a monotonic marker does not", "A marker raised specifically in primary tumours also has a plausible use that a monotonic marker does not"),
+ ("as the 0.65 study-prediction accuracy shows", "as the study-prediction accuracy (0.63, and 0.72 after correction; Section 3.10) shows"),
+ ("but reference-based methods (CIBERSORTx, xCell) or single-cell data would quantify it more precisely.",
+  "but reference- or marker-based deconvolution (CIBERSORTx, xCell, MCP-counter) or single-cell data would quantify it more precisely; scripts for xCell and MCP-counter are included in the release."),
+ ("<b>Residual batch effects.</b> Joint quantile normalisation reduced but did not remove study structure; source study remained predictable at 0.65 accuracy against a 0.35 baseline.",
+  "<b>Residual batch effects.</b> Joint quantile normalisation reduced but did not remove study structure: source study remained predictable (0.63 accuracy against a 0.35 baseline), and a ComBat-style location correction did not remove it (Section 3.10). Platform-aware preprocessing from the raw GEO files would be needed to do better."),
+ ("A performance-weighted consensus reached median accuracy with above-median stability, but LASSO, Kruskal-Wallis and stability selection did better on both counts, and the consensus refinements made little difference.",
+  "Selector rankings depended on the downstream classifier and were not statistically separable with five folds: a performance-weighted consensus was a median performer under kNN but among the best under logistic regression and random forests, and its refinements over a plain vote made little difference."),
+ ("because its expression peaks in primary melanoma and falls back in metastases", "because it is raised in primary melanoma relative to both normal skin and metastases"),
+ ("review_checks.py (selection bias, stability, ablation, and the nested null-model, published-marker and composition analyses)",
+  "review_checks.py (selection bias, stability, ablation, and the nested null-model, published-marker and composition analyses), revision_analyses.py (uncertainty, classifier dependence, batch correction, duplicate screening), tcga_validation.py, geo_patient_check.py and deconvolution.R with deconv_adjust.py (analyses that need internet access), audit_numbers.py and reproduce_all.sh (number audit and one-command reproduction), requirements-lock.txt (exact environment)"),
+]
+USED = {i: 0 for i in range(len(REPL))}
+
+REPL += [
+ ("PLPPR4, selected in every fold, is raised in primary melanoma", "PLPPR4, ranked first in all 15 outer folds of a repeated cross-validation, is raised in primary melanoma"),
+ ("<b>Five folds.</b> With five outer folds, confidence intervals are wide and small differences between selectors cannot be resolved; repeated nested cross-validation would narrow them.",
+  "<b>Few folds per partition.</b> Even with three repeated partitions, confidence intervals remain wide relative to the differences between selectors, and the identity of the most accurate selector changed between partitions; the benchmark ranks selectors only coarsely."),
+ ("Normal skin and primary tumours are cutaneous, whereas metastases can come from lymph nodes, subcutaneous or visceral sites.",
+  "Normal skin and primary tumours are cutaneous, whereas metastases come from lymph nodes, subcutaneous or visceral sites; according to the GSE15605 series record, for example, its 12 metastases came from lymph nodes (8), subcutaneous soft tissue (2), spleen and small intestine."),
+ ("Three genes, PLPPR4, S100A7 and KRT14, were nonetheless selected in every fold.",
+  "PLPPR4 was nonetheless selected, and ranked first, in all 15 outer folds of three repeated partitions, with five epidermal genes selected in at least 12."),
+ ("revision_analyses.py (uncertainty, classifier dependence, batch correction, duplicate screening)",
+  "revision_analyses.py (uncertainty, classifier dependence, batch correction, duplicate screening), mcpcounter_adjust.py (MCP-counter adjustment), repeated_cv_summary.py (repeated nested cross-validation)"),
+ ("reported independently [38]", "reported independently [39]"),
+ ("Martinoli et al. [39] linked", "Martinoli et al. [40] linked"),
+ ("proliferation and migration of tumour cells [40]", "proliferation and migration of tumour cells [41]"),
+ ("silenced in glioma and neuroblastoma [41]", "silenced in glioma and neuroblastoma [42]"),
+ ("modulates its signalling at synapses [42]", "modulates its signalling at synapses [43]"),
+ ("first purified from melanoma cells [43]", "first purified from melanoma cells [44]"),
+]
+USED = {i: 0 for i in range(len(REPL))}
+
+
+def fix(t):
+    for i, (a, b) in enumerate(REPL):
+        if a in t:
+            t = t.replace(a, b); USED[i] += 1
+    return t
+
+REPL += [
+ ("Leave-one-study-out balanced accuracy ranged from 0.46 to 0.86.",
+  "Leave-one-study-out balanced accuracy ranged from 0.46 to 0.86, but on 472 independent TCGA RNA-seq tumours the fixed signature, trained only on the microarrays, separated primary from metastatic melanoma with AUC 0.80 to 0.84."),
+ ("Tissue composition explains most of the signal; cross-study transfer is weak", "Composition explains much of the signal; external TCGA AUC reached 0.80-0.84"),
+ ("Code for GO Biological Process and KEGG enrichment of the top 60 genes against the 12,337-gene array background, and for a STRING [32] network at combined score ≥ 700, is included in the release (enrichment_ppi.py). These analyses need internet access and are not part of the results reported here.",
+  "The top 60 consensus genes were submitted to STRING version 12 [32] (Homo sapiens) for functional enrichment (GO, KEGG, Reactome, UniProt keywords; whole-genome background, FDR &lt; 0.05) and for an interaction network at combined score ≥ 700, with STRING's protein-protein interaction enrichment test."),
+ ("<b>Repeated samples.</b> Pairwise sample correlations were screened for near-duplicates (r ≥ 0.98), which would indicate repeated arrays or paired tissue from one patient.",
+  "<b>Repeated samples and patients.</b> Pairwise sample correlations were screened for near-duplicates (r ≥ 0.98). Sample annotations for all 321 arrays were then retrieved from the GEO records, which confirmed every class label and identified samples from the same patient: in GSE15605, 11 normal-skin samples were taken from the excision of a primary melanoma in the same patient (matching sample number, sex and age), and in GSE46517, 9 patients contributed 21 metastases (recorded patient identifiers). The entire nested pipeline was repeated with patient-grouped outer folds (stratified group k-fold), so that no patient appeared in both training and test data; samples without a patient identifier were treated as separate patients."),
+ ("Only one pair of samples exceeded r = 0.98: a primary and a metastatic sample from GSE15605 (r = 0.994, against a 99th percentile of 0.93 across all pairs), plausibly paired tissue from one patient. The two fell in different folds; removing them changed the consensus balanced accuracy from 0.873 to 0.875. Patient identifiers are not part of the merged matrix, so grouped cross-validation by patient was not possible (Section 5).",
+  "Only one pair of samples exceeded r = 0.98: a primary and a metastatic sample from GSE15605 (r = 0.994, against a 99th percentile of 0.93 across all pairs). Their GEO records describe different patients (aged 87 and 77), so the pair is more likely a duplicated hybridisation than paired tissue; removing both changed the consensus balanced accuracy from 0.873 to 0.875. With patient-grouped outer folds, which keep the 11 same-patient normal/primary pairs and the 9 multi-metastasis patients on one side of every split, the consensus reached balanced accuracy 0.888 ± 0.038 (0.873 with ungrouped folds), PLPPR4 again ranked first in all five folds, and ANXA8, KRT14, KRT16, S100A7 and SERPINB5 were selected in every fold. Patient overlap therefore did not inflate the reported performance."),
+ ("<b>Patient-level independence could not be verified.</b> Patient identifiers are not part of the merged matrix. A correlation screen found one probable paired sample, with no effect on the results, but grouped cross-validation by patient, using identifiers from the GEO sample records, is needed to exclude patient-level leakage.",
+  "<b>Patient identifiers are incomplete.</b> GEO records identify repeated patients in GSE15605 and among GSE46517 metastases, and patient-grouped cross-validation using them left the results unchanged, but GSE3189, GSE8401 and the non-metastatic GSE46517 samples carry no patient identifier, so undocumented repeats cannot be fully excluded."),
+ ("<b>Microarray only.</b> All four cohorts are microarray. Whether the signature holds in RNA-seq data is untested.",
+  "<b>External validation is partial.</b> The TCGA validation covers only primary versus metastatic tumours; the three-class model, including normal skin, has not been tested outside the four microarray cohorts."),
+ ("and transfer to RNA-seq data such as TCGA-SKCM, which also tests whether the signature survives a change of measurement technology.",
+  "and a cohort that includes normal skin profiled by RNA-seq, to test the full three-class model across measurement technologies."),
+ ("Holding out whole cohorts reduced balanced accuracy to between 0.46 and 0.86.",
+  "Holding out whole microarray cohorts reduced balanced accuracy to between 0.46 and 0.86, although the primary-versus-metastatic distinction transferred to independent TCGA RNA-seq data with AUC 0.80 to 0.84."),
+ ("requirements-lock.txt (exact environment)", "requirements-lock.txt (exact environment), tcga_validate_cbio.py with the retrieved TCGA values, and the GEO sample annotations, patient groups and STRING results in results/revision"),
+ ("first purified from melanoma cells [44]", "first purified from melanoma cells [46]"),
+ ("modulates its signalling at synapses [43]", "modulates its signalling at synapses [45]"),
+ ("silenced in glioma and neuroblastoma [42]", "silenced in glioma and neuroblastoma [44]"),
+ ("proliferation and migration of tumour cells [41]", "proliferation and migration of tumour cells [43]"),
+ ("Martinoli et al. [40] linked", "Martinoli et al. [42] linked"),
+ ("reported independently [39]", "reported independently [41]"),
+]
+USED = {i: 0 for i in range(len(REPL))}
