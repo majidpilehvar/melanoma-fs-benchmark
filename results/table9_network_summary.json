@@ -1,0 +1,135 @@
+{
+  "threshold_abs_r": 0.7,
+  "nodes": 41,
+  "edges": 574,
+  "isolated_removed": [
+    "PLPPR4",
+    "EMP3",
+    "PLOD3",
+    "FABP4",
+    "CDC42EP3",
+    "TSPAN8",
+    "BCL2A1",
+    "TUBB4A",
+    "LGALS3BP",
+    "TRIB2",
+    "AGTR1",
+    "MIR4800",
+    "CHIT1",
+    "PSPH",
+    "MMP1",
+    "ADH1B",
+    "TYR",
+    "LINC01314",
+    "TYRP1"
+  ],
+  "components": [
+    [
+      "AHNAK",
+      "ANXA8",
+      "BBOX1",
+      "C1orf116",
+      "CA12",
+      "CHP2",
+      "CST6",
+      "CTSG",
+      "DSP",
+      "EMP2",
+      "EVPL",
+      "FGFR2",
+      "FLG",
+      "IPPK",
+      "JUP",
+      "KLF4",
+      "KLF5",
+      "KLK11",
+      "KLK7",
+      "KRT1",
+      "KRT14",
+      "KRT15",
+      "KRT16",
+      "KRT6A",
+      "KRT6B",
+      "LAMB3",
+      "LOR",
+      "LY6D",
+      "NEBL",
+      "S100A14",
+      "S100A7",
+      "SERPINB5",
+      "SFN",
+      "SOX15",
+      "SPRR1B",
+      "TMEM30B",
+      "TMEM45A",
+      "TUFT1"
+    ],
+    [
+      "KRT19",
+      "PIP",
+      "SCGB1D2"
+    ]
+  ],
+  "top_betweenness": [
+    {
+      "gene": "ANXA8",
+      "degree": 37,
+      "betweenness": 0.014,
+      "component": 0
+    },
+    {
+      "gene": "S100A14",
+      "degree": 37,
+      "betweenness": 0.014,
+      "component": 0
+    },
+    {
+      "gene": "EVPL",
+      "degree": 37,
+      "betweenness": 0.014,
+      "component": 0
+    },
+    {
+      "gene": "KLF5",
+      "degree": 36,
+      "betweenness": 0.0109,
+      "component": 0
+    },
+    {
+      "gene": "BBOX1",
+      "degree": 36,
+      "betweenness": 0.0109,
+      "component": 0
+    },
+    {
+      "gene": "LY6D",
+      "degree": 36,
+      "betweenness": 0.0106,
+      "component": 0
+    },
+    {
+      "gene": "KRT15",
+      "degree": 36,
+      "betweenness": 0.0101,
+      "component": 0
+    },
+    {
+      "gene": "KLK11",
+      "degree": 36,
+      "betweenness": 0.0101,
+      "component": 0
+    },
+    {
+      "gene": "CA12",
+      "degree": 35,
+      "betweenness": 0.0098,
+      "component": 0
+    },
+    {
+      "gene": "C1orf116",
+      "degree": 35,
+      "betweenness": 0.0098,
+      "component": 0
+    }
+  ]
+}

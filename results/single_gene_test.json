@@ -1,0 +1,7 @@
+{
+  "proposed_mean_f1": 0.5070375234629256,
+  "prior_mean_f1": 0.44146915318337027,
+  "n_proposed": 30,
+  "n_prior": 14,
+  "mannwhitney_p": 0.0014136360455584039
+}

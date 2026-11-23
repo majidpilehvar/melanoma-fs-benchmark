@@ -1,0 +1,27 @@
+{
+  "keratinocyte": {
+    "normal skin": 0.923,
+    "primary melanoma": 0.333,
+    "metastatic melanoma": -0.581
+  },
+  "melanocyte": {
+    "normal skin": -1.16,
+    "primary melanoma": 0.263,
+    "metastatic melanoma": -0.031
+  },
+  "fibroblast": {
+    "normal skin": 0.652,
+    "primary melanoma": 0.104,
+    "metastatic melanoma": -0.263
+  },
+  "endothelial": {
+    "normal skin": 0.893,
+    "primary melanoma": 0.046,
+    "metastatic melanoma": -0.254
+  },
+  "immune": {
+    "normal skin": -0.364,
+    "primary melanoma": 0.067,
+    "metastatic melanoma": 0.008
+  }
+}

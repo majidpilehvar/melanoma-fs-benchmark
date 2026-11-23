@@ -1,0 +1,351 @@
+section,claim,stated_in_paper,recomputed,source,result
+3.1,min balanced accuracy,0.731,0.730997,table1_method_benchmark.csv,PASS
+3.1,max balanced accuracy,0.91,0.909553,table1_method_benchmark.csv,PASS
+3.1,ACO runtime (s),2.9,2.869421,table1_method_benchmark.csv,PASS
+3.1,beam search runtime (s),26.5,26.54217,table1_method_benchmark.csv,PASS
+Table 1,ACO accuracy,0.913,0.912692,table1_method_benchmark.csv,PASS
+Table 1,ACO balanced acc.,0.91,0.909553,table1_method_benchmark.csv,PASS
+Table 1,ACO macro F1,0.91,0.90992,table1_method_benchmark.csv,PASS
+Table 1,ACO AUC,0.969,0.968661,table1_method_benchmark.csv,PASS
+Table 1,ACO stability,0.04,0.042,review/accuracy_vs_stability.csv,PASS
+Table 1,MIFS accuracy,0.894,0.89399,table1_method_benchmark.csv,PASS
+Table 1,MIFS balanced acc.,0.905,0.904513,table1_method_benchmark.csv,PASS
+Table 1,MIFS macro F1,0.901,0.900823,table1_method_benchmark.csv,PASS
+Table 1,MIFS AUC,0.963,0.963299,table1_method_benchmark.csv,PASS
+Table 1,MIFS stability,0.13,0.13,review/accuracy_vs_stability.csv,PASS
+Table 1,Forward Selection accuracy,0.894,0.894135,table1_method_benchmark.csv,PASS
+Table 1,Forward Selection balanced acc.,0.896,0.896129,table1_method_benchmark.csv,PASS
+Table 1,Forward Selection macro F1,0.898,0.897872,table1_method_benchmark.csv,PASS
+Table 1,Forward Selection AUC,0.968,0.968032,table1_method_benchmark.csv,PASS
+Table 1,Forward Selection stability,0.18,0.178,review/accuracy_vs_stability.csv,PASS
+Table 1,Simulated Annealing accuracy,0.878,0.878413,table1_method_benchmark.csv,PASS
+Table 1,Simulated Annealing balanced acc.,0.893,0.893049,table1_method_benchmark.csv,PASS
+Table 1,Simulated Annealing macro F1,0.888,0.888388,table1_method_benchmark.csv,PASS
+Table 1,Simulated Annealing AUC,0.961,0.960729,table1_method_benchmark.csv,PASS
+Table 1,Simulated Annealing stability,0.05,0.047,review/accuracy_vs_stability.csv,PASS
+Table 1,Boruta accuracy,0.891,0.89101,table1_method_benchmark.csv,PASS
+Table 1,Boruta balanced acc.,0.893,0.892622,table1_method_benchmark.csv,PASS
+Table 1,Boruta macro F1,0.894,0.893759,table1_method_benchmark.csv,PASS
+Table 1,Boruta AUC,0.959,0.959178,table1_method_benchmark.csv,PASS
+Table 1,Boruta stability,0.11,0.11,review/accuracy_vs_stability.csv,PASS
+Table 1,Genetic Algorithm accuracy,0.9,0.90024,table1_method_benchmark.csv,PASS
+Table 1,Genetic Algorithm balanced acc.,0.891,0.891441,table1_method_benchmark.csv,PASS
+Table 1,Genetic Algorithm macro F1,0.899,0.898786,table1_method_benchmark.csv,PASS
+Table 1,Genetic Algorithm AUC,0.967,0.966647,table1_method_benchmark.csv,PASS
+Table 1,Genetic Algorithm stability,0.05,0.05,review/accuracy_vs_stability.csv,PASS
+Table 1,Kruskal-Wallis accuracy,0.885,0.884615,table1_method_benchmark.csv,PASS
+Table 1,Kruskal-Wallis balanced acc.,0.889,0.889171,table1_method_benchmark.csv,PASS
+Table 1,Kruskal-Wallis macro F1,0.882,0.882321,table1_method_benchmark.csv,PASS
+Table 1,Kruskal-Wallis AUC,0.957,0.95685,table1_method_benchmark.csv,PASS
+Table 1,Kruskal-Wallis stability,0.34,0.342,review/accuracy_vs_stability.csv,PASS
+Table 1,LASSO (L1) accuracy,0.882,0.881538,table1_method_benchmark.csv,PASS
+Table 1,LASSO (L1) balanced acc.,0.886,0.885955,table1_method_benchmark.csv,PASS
+Table 1,LASSO (L1) macro F1,0.89,0.890016,table1_method_benchmark.csv,PASS
+Table 1,LASSO (L1) AUC,0.96,0.960126,table1_method_benchmark.csv,PASS
+Table 1,LASSO (L1) stability,0.34,0.342,review/accuracy_vs_stability.csv,PASS
+Table 1,Stability Selection accuracy,0.888,0.88774,table1_method_benchmark.csv,PASS
+Table 1,Stability Selection balanced acc.,0.882,0.882236,table1_method_benchmark.csv,PASS
+Table 1,Stability Selection macro F1,0.893,0.892786,table1_method_benchmark.csv,PASS
+Table 1,Stability Selection AUC,0.958,0.957549,table1_method_benchmark.csv,PASS
+Table 1,Stability Selection stability,0.51,0.505,review/accuracy_vs_stability.csv,PASS
+Table 1,ANOVA accuracy,0.838,0.837885,table1_method_benchmark.csv,PASS
+Table 1,ANOVA balanced acc.,0.826,0.825616,table1_method_benchmark.csv,PASS
+Table 1,ANOVA macro F1,0.834,0.834128,table1_method_benchmark.csv,PASS
+Table 1,ANOVA AUC,0.943,0.942595,table1_method_benchmark.csv,PASS
+Table 1,ANOVA stability,0.33,0.333,review/accuracy_vs_stability.csv,PASS
+Table 1,Variance Threshold accuracy,0.797,0.797212,table1_method_benchmark.csv,PASS
+Table 1,Variance Threshold balanced acc.,0.782,0.78199,table1_method_benchmark.csv,PASS
+Table 1,Variance Threshold macro F1,0.792,0.792335,table1_method_benchmark.csv,PASS
+Table 1,Variance Threshold AUC,0.912,0.911634,table1_method_benchmark.csv,PASS
+Table 1,Variance Threshold stability,0.93,0.925,review/accuracy_vs_stability.csv,PASS
+Table 1,Spearman Correlation accuracy,0.763,0.763029,table1_method_benchmark.csv,PASS
+Table 1,Spearman Correlation balanced acc.,0.731,0.730997,table1_method_benchmark.csv,PASS
+Table 1,Spearman Correlation macro F1,0.731,0.731254,table1_method_benchmark.csv,PASS
+Table 1,Spearman Correlation AUC,0.876,0.876174,table1_method_benchmark.csv,PASS
+Table 1,Spearman Correlation stability,0.35,0.354,review/accuracy_vs_stability.csv,PASS
+3.1,top-5 selectors min Jaccard,0.04,0.042,accuracy_vs_stability.csv,PASS
+3.1,top-5 selectors max Jaccard,0.18,0.178,accuracy_vs_stability.csv,PASS
+3.1,PCA Loading Jaccard,0.95,0.95,accuracy_vs_stability.csv,PASS
+3.1,Chi-square Jaccard,0.88,0.876,accuracy_vs_stability.csv,PASS
+1 / 3.1,median pairwise overlap (genes),2,2.0,review/part1.json,PASS
+1 / 3.1,pairs sharing no gene,72,72.0,review/part1.json,PASS
+1 / 3.1,number of method pairs,496,496.0,review/part1.json,PASS
+3.1,methods inflated by selection bias,24,24.0,review/part1.json,PASS
+3.1,median inflation (points),1.6,1.564904,review/part1.json,PASS
+3.1,max inflation (points),5.9,5.927885,review/part1.json,PASS
+3.1,ANOVA leaky accuracy,0.897,0.897163,review/part1.json,PASS
+3.1,ANOVA nested accuracy,0.838,0.837885,review/part1.json,PASS
+3.1,redundancy clusters,"[['ANOVA', 'Fisher Score', 'Permutation Importance'], ['PCA Loading', 'Variance Threshold']]","[['ANOVA', 'Fisher Score', 'Permutation Importance'], ['PCA Loading', 'Variance Threshold']]",method_redundancy.json,PASS
+3.2,genes in all five folds,"['KRT14', 'PLPPR4', 'S100A7']","['KRT14', 'PLPPR4', 'S100A7']",signature_stability.json,PASS
+3.2,genes in four folds,"['KRT15', 'KRT16', 'KRT6A', 'SERPINB5']","['KRT15', 'KRT16', 'KRT6A', 'SERPINB5']",table7_signature_stability.csv,PASS
+3.2,full-data top 10,"['PLPPR4', 'KRT6A', 'KRT14', 'EMP3', 'ANXA8', 'KRT16', 'S100A7', 'SERPINB5', 'KLF5', 'AHNAK']","['PLPPR4', 'KRT6A', 'KRT14', 'EMP3', 'ANXA8', 'KRT16', 'S100A7', 'SERPINB5', 'KLF5', 'AHNAK']",table2_gene_ranking.csv,PASS
+Table 2,PLPPR4 folds,5,5.0,table7_signature_stability.csv,PASS
+Table 2,PLPPR4 consensus score,18.6,18.598131,table2_gene_ranking.csv,PASS
+Table 2,PLPPR4 log2FC met vs normal,-0.17,-0.168592,differential_expression_all_genes.csv,PASS
+Table 2,S100A7 folds,5,5.0,table7_signature_stability.csv,PASS
+Table 2,S100A7 consensus score,5.88,5.878505,table2_gene_ranking.csv,PASS
+Table 2,S100A7 log2FC met vs normal,-4.44,-4.437049,differential_expression_all_genes.csv,PASS
+Table 2,KRT14 folds,5,5.0,table7_signature_stability.csv,PASS
+Table 2,KRT14 consensus score,9.28,9.277259,table2_gene_ranking.csv,PASS
+Table 2,KRT14 log2FC met vs normal,-6.72,-6.71653,differential_expression_all_genes.csv,PASS
+Table 2,KRT6A folds,4,4.0,table7_signature_stability.csv,PASS
+Table 2,KRT6A consensus score,10.75,10.747664,table2_gene_ranking.csv,PASS
+Table 2,KRT6A log2FC met vs normal,-4.89,-4.886429,differential_expression_all_genes.csv,PASS
+Table 2,KRT15 folds,4,4.0,table7_signature_stability.csv,PASS
+Table 2,KRT15 consensus score,3.08,3.080997,table2_gene_ranking.csv,PASS
+Table 2,KRT15 log2FC met vs normal,-6.51,-6.50791,differential_expression_all_genes.csv,PASS
+Table 2,SERPINB5 folds,4,4.0,table7_signature_stability.csv,PASS
+Table 2,SERPINB5 consensus score,5.65,5.654206,table2_gene_ranking.csv,PASS
+Table 2,SERPINB5 log2FC met vs normal,-5.47,-5.466991,differential_expression_all_genes.csv,PASS
+Table 2,KRT16 folds,4,4.0,table7_signature_stability.csv,PASS
+Table 2,KRT16 consensus score,6.69,6.691589,table2_gene_ranking.csv,PASS
+Table 2,KRT16 log2FC met vs normal,-3.79,-3.789024,differential_expression_all_genes.csv,PASS
+Table 2,EMP3 folds,3,3.0,table7_signature_stability.csv,PASS
+Table 2,EMP3 consensus score,7.12,7.121495,table2_gene_ranking.csv,PASS
+Table 2,EMP3 log2FC met vs normal,1.0,1.001866,differential_expression_all_genes.csv,PASS
+Table 2,TSPAN8 folds,3,3.0,table7_signature_stability.csv,PASS
+Table 2,TSPAN8 consensus score,3.55,3.545171,table2_gene_ranking.csv,PASS
+Table 2,TSPAN8 log2FC met vs normal,-2.11,-2.112948,differential_expression_all_genes.csv,PASS
+Table 2,AHNAK folds,3,3.0,table7_signature_stability.csv,PASS
+Table 2,AHNAK consensus score,5.05,5.05296,table2_gene_ranking.csv,PASS
+Table 2,AHNAK log2FC met vs normal,-2.15,-2.146861,differential_expression_all_genes.csv,PASS
+Table 2,PLPPR4 FDR met vs normal,0.462,0.461853,differential_expression_all_genes.csv,PASS
+1,genes with FDR<0.05 met vs normal,6600,6600.0,differential_expression_all_genes.csv,PASS
+3.6,PLPPR4 FDR primary vs normal,8.2e-10,0.0,differential_expression_all_genes.csv,PASS
+3.6,PLPPR4 FDR met vs primary,2.8e-27,0.0,differential_expression_all_genes.csv,PASS
+3.2,median selector balanced accuracy,0.873,0.873462,table1 + stability,PASS
+3.2,median selector Jaccard,0.2,0.2,table1 + stability,PASS
+3.2,consensus Jaccard,0.29,0.287,review/part3.json,PASS
+Table S2,weighted+redundancy accuracy,0.888,0.888,review/part3.json,PASS
+Table S2,weighted+redundancy balanced acc.,0.873,0.873,review/part3.json,PASS
+Table S2,weighted+redundancy genes in all folds,3,3.0,review/part3.json,PASS
+Table S2,weighted+redundancy Jaccard,0.287,0.287,review/part3.json,PASS
+Table S2,weighted only accuracy,0.891,0.891,review/part3.json,PASS
+Table S2,weighted only balanced acc.,0.858,0.858,review/part3.json,PASS
+Table S2,weighted only genes in all folds,3,3.0,review/part3.json,PASS
+Table S2,weighted only Jaccard,0.301,0.301,review/part3.json,PASS
+Table S2,redundancy only accuracy,0.885,0.885,review/part3.json,PASS
+Table S2,redundancy only balanced acc.,0.871,0.871,review/part3.json,PASS
+Table S2,redundancy only genes in all folds,4,4.0,review/part3.json,PASS
+Table S2,redundancy only Jaccard,0.308,0.308,review/part3.json,PASS
+Table S2,plain vote count accuracy,0.894,0.894,review/part3.json,PASS
+Table S2,plain vote count balanced acc.,0.86,0.86,review/part3.json,PASS
+Table S2,plain vote count genes in all folds,3,3.0,review/part3.json,PASS
+Table S2,plain vote count Jaccard,0.307,0.307,review/part3.json,PASS
+Table 3,KNN consensus-15 accuracy,0.888,0.887885,table3_model_comparison.csv,PASS
+Table 3,KNN consensus-15 balanced_accuracy,0.873,0.87287,table3_model_comparison.csv,PASS
+Table 3,KNN consensus-15 f1_macro,0.885,0.885078,table3_model_comparison.csv,PASS
+Table 3,KNN consensus-15 specificity_macro,0.932,0.931938,table3_model_comparison.csv,PASS
+Table 3,KNN consensus-15 auc_ovr,0.957,0.956632,table3_model_comparison.csv,PASS
+Table 3,KNN all-genes accuracy,0.85,0.850433,table3_model_comparison.csv,PASS
+Table 3,KNN all-genes balanced_accuracy,0.859,0.8593,table3_model_comparison.csv,PASS
+Table 3,KNN all-genes f1_macro,0.859,0.858949,table3_model_comparison.csv,PASS
+Table 3,KNN all-genes specificity_macro,0.909,0.909014,table3_model_comparison.csv,PASS
+Table 3,KNN all-genes auc_ovr,0.962,0.961538,table3_model_comparison.csv,PASS
+Table 3,MLP (Keras-equivalent) consensus-15 accuracy,0.897,0.89726,table3_model_comparison.csv,PASS
+Table 3,MLP (Keras-equivalent) consensus-15 balanced_accuracy,0.907,0.907299,table3_model_comparison.csv,PASS
+Table 3,MLP (Keras-equivalent) consensus-15 f1_macro,0.906,0.906281,table3_model_comparison.csv,PASS
+Table 3,MLP (Keras-equivalent) consensus-15 specificity_macro,0.939,0.939433,table3_model_comparison.csv,PASS
+Table 3,MLP (Keras-equivalent) consensus-15 auc_ovr,0.951,0.951348,table3_model_comparison.csv,PASS
+Table 3,MLP (Keras-equivalent) all-genes accuracy,0.85,0.850192,table3_model_comparison.csv,PASS
+Table 3,MLP (Keras-equivalent) all-genes balanced_accuracy,0.848,0.847712,table3_model_comparison.csv,PASS
+Table 3,MLP (Keras-equivalent) all-genes f1_macro,0.835,0.834869,table3_model_comparison.csv,PASS
+Table 3,MLP (Keras-equivalent) all-genes specificity_macro,0.914,0.914101,table3_model_comparison.csv,PASS
+Table 3,MLP (Keras-equivalent) all-genes auc_ovr,0.947,0.946579,table3_model_comparison.csv,PASS
+3.3,sklearn MLP consensus balanced acc.,0.772,0.77238,table3,PASS
+3.3,sklearn MLP all-genes balanced acc.,0.833,0.832644,table3,PASS
+3.3,out-of-fold AUC class 1,0.948,0.947831,roc_out_of_fold.json,PASS
+3.3,out-of-fold AUC class 2,0.955,0.954501,roc_out_of_fold.json,PASS
+3.3,out-of-fold AUC class 3,0.965,0.965209,roc_out_of_fold.json,PASS
+3.4,"null model (5,000 draws) observed",0.843,0.843331,revision/stats.json,PASS
+3.4,"null model (5,000 draws) null_mean",0.512,0.512172,revision/stats.json,PASS
+3.4,"null model (5,000 draws) null_p95",0.645,0.645328,revision/stats.json,PASS
+3.4,"null model (5,000 draws) null_max",0.791,0.790757,revision/stats.json,PASS
+3.4,"null model (5,000 draws) empirical_p",0.0002,0.0002,revision/stats.json,PASS
+3.10,consensus balanced acc. mean,0.873,0.8729,revision/stats.json,PASS
+3.10,consensus balanced acc. SD,0.066,0.0663,revision/stats.json,PASS
+3.10,consensus 95% CI low,0.79,0.7905,revision/stats.json,PASS
+3.10,consensus 95% CI high,0.96,0.9552,revision/stats.json,PASS
+3.10,consensus Jaccard mean,0.29,0.2873,revision/stats.json,PASS
+3.10,consensus Jaccard SD,0.09,0.0862,revision/stats.json,PASS
+3.10,min corrected-test p > 0.13,True,True,revision/stats.json,PASS
+3.10,min Holm-adjusted p >= 0.92,True,True,revision/stats.json,PASS
+3.10,consensus rank kNN,17,17.0,revision/classifiers.json,PASS
+3.10,consensus rank logistic,3,3.0,revision/classifiers.json,PASS
+3.10,consensus rank random forest,1,1.0,revision/classifiers.json,PASS
+3.10,consensus logistic balanced acc.,0.886,0.885501,revision/classifiers.json,PASS
+3.10,consensus RF balanced acc.,0.932,0.93237,revision/classifiers.json,PASS
+3.10,rank correlation kNN vs logistic,0.75,0.746823,revision/classifiers.json,PASS
+3.10,rank correlation kNN vs RF,0.73,0.734448,revision/classifiers.json,PASS
+Table S4,CONSENSUS kNN,0.873,0.873,revision/tableS4_classifier_dependence.csv,PASS
+Table S4,CONSENSUS logistic,0.886,0.886,revision/tableS4_classifier_dependence.csv,PASS
+Table S4,CONSENSUS random_forest,0.932,0.932,revision/tableS4_classifier_dependence.csv,PASS
+Table S4,CONSENSUS mean,0.897,0.897,revision/tableS4_classifier_dependence.csv,PASS
+Table S4,CONSENSUS rank_kNN,17,17.0,revision/tableS4_classifier_dependence.csv,PASS
+Table S4,CONSENSUS rank_LR,3,3.0,revision/tableS4_classifier_dependence.csv,PASS
+Table S4,CONSENSUS rank_RF,1,1.0,revision/tableS4_classifier_dependence.csv,PASS
+Table S4,Genetic Algorithm kNN,0.891,0.891,revision/tableS4_classifier_dependence.csv,PASS
+Table S4,Genetic Algorithm logistic,0.893,0.893,revision/tableS4_classifier_dependence.csv,PASS
+Table S4,Genetic Algorithm random_forest,0.903,0.903,revision/tableS4_classifier_dependence.csv,PASS
+Table S4,Genetic Algorithm mean,0.896,0.896,revision/tableS4_classifier_dependence.csv,PASS
+Table S4,Genetic Algorithm rank_kNN,6,6.0,revision/tableS4_classifier_dependence.csv,PASS
+Table S4,Genetic Algorithm rank_LR,1,1.0,revision/tableS4_classifier_dependence.csv,PASS
+Table S4,Genetic Algorithm rank_RF,5,5.0,revision/tableS4_classifier_dependence.csv,PASS
+Table S4,Stability Selection kNN,0.882,0.882,revision/tableS4_classifier_dependence.csv,PASS
+Table S4,Stability Selection logistic,0.874,0.874,revision/tableS4_classifier_dependence.csv,PASS
+Table S4,Stability Selection random_forest,0.924,0.924,revision/tableS4_classifier_dependence.csv,PASS
+Table S4,Stability Selection mean,0.894,0.894,revision/tableS4_classifier_dependence.csv,PASS
+Table S4,Stability Selection rank_kNN,12,12.0,revision/tableS4_classifier_dependence.csv,PASS
+Table S4,Stability Selection rank_LR,6,6.0,revision/tableS4_classifier_dependence.csv,PASS
+Table S4,Stability Selection rank_RF,2,2.0,revision/tableS4_classifier_dependence.csv,PASS
+Table S4,mRMR kNN,0.883,0.883,revision/tableS4_classifier_dependence.csv,PASS
+Table S4,mRMR logistic,0.87,0.87,revision/tableS4_classifier_dependence.csv,PASS
+Table S4,mRMR random_forest,0.921,0.921,revision/tableS4_classifier_dependence.csv,PASS
+Table S4,mRMR mean,0.891,0.891,revision/tableS4_classifier_dependence.csv,PASS
+Table S4,mRMR rank_kNN,11,11.0,revision/tableS4_classifier_dependence.csv,PASS
+Table S4,mRMR rank_LR,7,7.0,revision/tableS4_classifier_dependence.csv,PASS
+Table S4,mRMR rank_RF,3,3.0,revision/tableS4_classifier_dependence.csv,PASS
+Table S4,Simulated Annealing kNN,0.893,0.893,revision/tableS4_classifier_dependence.csv,PASS
+Table S4,Simulated Annealing logistic,0.861,0.861,revision/tableS4_classifier_dependence.csv,PASS
+Table S4,Simulated Annealing random_forest,0.901,0.901,revision/tableS4_classifier_dependence.csv,PASS
+Table S4,Simulated Annealing mean,0.885,0.885,revision/tableS4_classifier_dependence.csv,PASS
+Table S4,Simulated Annealing rank_kNN,4,4.0,revision/tableS4_classifier_dependence.csv,PASS
+Table S4,Simulated Annealing rank_LR,9,9.0,revision/tableS4_classifier_dependence.csv,PASS
+Table S4,Simulated Annealing rank_RF,8,8.0,revision/tableS4_classifier_dependence.csv,PASS
+Table S4,Boruta kNN,0.893,0.893,revision/tableS4_classifier_dependence.csv,PASS
+Table S4,Boruta logistic,0.858,0.858,revision/tableS4_classifier_dependence.csv,PASS
+Table S4,Boruta random_forest,0.903,0.903,revision/tableS4_classifier_dependence.csv,PASS
+Table S4,Boruta mean,0.885,0.885,revision/tableS4_classifier_dependence.csv,PASS
+Table S4,Boruta rank_kNN,5,5.0,revision/tableS4_classifier_dependence.csv,PASS
+Table S4,Boruta rank_LR,13,13.0,revision/tableS4_classifier_dependence.csv,PASS
+Table S4,Boruta rank_RF,6,6.0,revision/tableS4_classifier_dependence.csv,PASS
+Table S4,ACO kNN,0.91,0.91,revision/tableS4_classifier_dependence.csv,PASS
+Table S4,ACO logistic,0.864,0.864,revision/tableS4_classifier_dependence.csv,PASS
+Table S4,ACO random_forest,0.878,0.878,revision/tableS4_classifier_dependence.csv,PASS
+Table S4,ACO mean,0.884,0.884,revision/tableS4_classifier_dependence.csv,PASS
+Table S4,ACO rank_kNN,1,1.0,revision/tableS4_classifier_dependence.csv,PASS
+Table S4,ACO rank_LR,8,8.0,revision/tableS4_classifier_dependence.csv,PASS
+Table S4,ACO rank_RF,17,17.0,revision/tableS4_classifier_dependence.csv,PASS
+Table S4,LASSO (L1) kNN,0.886,0.886,revision/tableS4_classifier_dependence.csv,PASS
+Table S4,LASSO (L1) logistic,0.86,0.86,revision/tableS4_classifier_dependence.csv,PASS
+Table S4,LASSO (L1) random_forest,0.898,0.898,revision/tableS4_classifier_dependence.csv,PASS
+Table S4,LASSO (L1) mean,0.881,0.881,revision/tableS4_classifier_dependence.csv,PASS
+Table S4,LASSO (L1) rank_kNN,8,8.0,revision/tableS4_classifier_dependence.csv,PASS
+Table S4,LASSO (L1) rank_LR,11,11.0,revision/tableS4_classifier_dependence.csv,PASS
+Table S4,LASSO (L1) rank_RF,10,10.0,revision/tableS4_classifier_dependence.csv,PASS
+Table S4,Kruskal-Wallis kNN,0.889,0.889,revision/tableS4_classifier_dependence.csv,PASS
+Table S4,Kruskal-Wallis logistic,0.849,0.849,revision/tableS4_classifier_dependence.csv,PASS
+Table S4,Kruskal-Wallis random_forest,0.843,0.843,revision/tableS4_classifier_dependence.csv,PASS
+Table S4,Kruskal-Wallis mean,0.86,0.86,revision/tableS4_classifier_dependence.csv,PASS
+Table S4,Kruskal-Wallis rank_kNN,7,7.0,revision/tableS4_classifier_dependence.csv,PASS
+Table S4,Kruskal-Wallis rank_LR,17,17.0,revision/tableS4_classifier_dependence.csv,PASS
+Table S4,Kruskal-Wallis rank_RF,26,26.0,revision/tableS4_classifier_dependence.csv,PASS
+3.10,pooled balanced acc. uncorrected,0.873,0.87287,revision/batch.json,PASS
+3.10,pooled balanced acc. corrected,0.904,0.904432,revision/batch.json,PASS
+3.10,study prediction before,0.63,0.625625,revision/batch.json,PASS
+3.10,study prediction after,0.72,0.719327,revision/batch.json,PASS
+3.10,LOSO study_1 uncorrected,0.46,0.457143,revision/batch.json,PASS
+3.10,LOSO study_1 study-centred,0.52,0.52381,revision/batch.json,PASS
+3.10,LOSO study_2 uncorrected,0.86,0.858561,revision/batch.json,PASS
+3.10,LOSO study_2 study-centred,0.88,0.877792,revision/batch.json,PASS
+3.10,LOSO study_3 uncorrected,0.66,0.660326,revision/batch.json,PASS
+3.10,LOSO study_3 study-centred,0.56,0.555254,revision/batch.json,PASS
+3.10,LOSO study_4 uncorrected,0.85,0.848174,revision/batch.json,PASS
+3.10,LOSO study_4 study-centred,0.83,0.829909,revision/batch.json,PASS
+3.10,pairs with r >= 0.98,1,1.0,revision/duplicates.json,PASS
+3.10,max pairwise r,0.994,0.994316,revision/duplicates.json,PASS
+3.10,99th percentile r,0.93,0.926126,revision/duplicates.json,PASS
+3.10,repeated CV outer folds,15,15.0,revision/repeated_cv.json,PASS
+3.10,repeated CV consensus mean,0.871,0.8706,revision/repeated_cv.json,PASS
+3.10,repeated CV consensus SD,0.062,0.0623,revision/repeated_cv.json,PASS
+3.10,repeated CV CI low,0.84,0.8361,revision/repeated_cv.json,PASS
+3.10,repeated CV CI high,0.91,0.9051,revision/repeated_cv.json,PASS
+3.10,repeated CV consensus stability,0.35,0.3511,revision/repeated_cv.json,PASS
+3.10,repeated CV median selector,0.87,0.869754,revision/repeated_cv.json,PASS
+3.10,repeated CV median stability,0.23,0.232589,revision/repeated_cv.json,PASS
+3.10,repeated CV consensus rank,17,17.0,revision/repeated_cv.json,PASS
+3.10,repeated CV top method,Forward Selection,Forward Selection,revision/repeated_cv.json,PASS
+3.10,repeated CV top method value,0.9,0.899558,revision/repeated_cv.json,PASS
+3.10,smallest Holm-adjusted p,0.08,0.082583,revision/repeated_cv.json,PASS
+3.10,PLPPR4 ranked first in folds,15,15.0,revision/repeated_cv.json,PASS
+3.10,genes in all 15 folds,['PLPPR4'],['PLPPR4'],revision/repeated_cv.json,PASS
+3.10,genes in >= 12 folds,"['KRT14', 'KRT16', 'KRT6A', 'PLPPR4', 'S100A7', 'SERPINB5']","['KRT14', 'KRT16', 'KRT6A', 'PLPPR4', 'S100A7', 'SERPINB5']",revision/repeated_cv.json,PASS
+2.7,MCP-counter markers found,94,94.0,revision/mcpcounter.json,PASS
+2.7,MCP-counter markers total,111,111.0,revision/mcpcounter.json,PASS
+3.10,MCP-counter three_class mcp_counter_10 signature_adjusted,0.702,0.702,revision/mcpcounter.json,PASS
+3.10,MCP-counter three_class mcp_counter_plus_keratinocyte_melanocyte signature_adjusted,0.635,0.635,revision/mcpcounter.json,PASS
+3.10,MCP-counter three_class mcp_counter_10 scores_alone,0.749,0.749,revision/mcpcounter.json,PASS
+3.10,MCP-counter primary_vs_metastatic mcp_counter_10 signature_adjusted,0.767,0.767,revision/mcpcounter.json,PASS
+3.10,MCP-counter primary_vs_metastatic mcp_counter_plus_keratinocyte_melanocyte signature_adjusted,0.737,0.737,revision/mcpcounter.json,PASS
+3.10,grouped CV consensus balanced acc.,0.888,0.887979,revision/grouped_cv.json,PASS
+3.10,grouped CV consensus SD,0.038,0.037877,revision/grouped_cv.json,PASS
+3.10,grouped CV PLPPR4 first in folds,5,5.0,revision/grouped_cv.json,PASS
+3.10,grouped CV genes in all folds,"['ANXA8', 'KRT14', 'KRT16', 'PLPPR4', 'S100A7', 'SERPINB5']","['ANXA8', 'KRT14', 'KRT16', 'PLPPR4', 'S100A7', 'SERPINB5']",revision/grouped_cv.json,PASS
+2.7,GSE15605 same-patient pairs,11,11.0,revision/patient_groups.csv,PASS
+2.7,GSE46517 multi-metastasis patients,9,9.0,revision/patient_groups.csv,PASS
+2.7,samples in those patients,21,21.0,revision/patient_groups.csv,PASS
+3.11,TCGA primary n,103,103.0,revision/tcga_validation.json,PASS
+3.11,TCGA metastatic n,369,369.0,revision/tcga_validation.json,PASS
+3.11,TCGA kNN AUC,0.796,0.796,revision/tcga_validation.json,PASS
+3.11,TCGA logistic AUC,0.842,0.842,revision/tcga_validation.json,PASS
+3.11,TCGA balanced acc. kNN,0.746,0.746,revision/tcga_validation.json,PASS
+3.11,TCGA balanced acc. logistic,0.746,0.746,revision/tcga_validation.json,PASS
+3.11,direction agreement (of 15),13,13.0,revision/tcga_validation.json,PASS
+3.11,PLPPR4 TCGA difference,-0.79,-0.79,revision/tcga_validation.json,PASS
+3.11,PLPPR4 TCGA p,5.4e-05,5.4e-05,revision/tcga_validation.json,PASS
+3.11,EMP3 TCGA p,7e-10,0.0,revision/tcga_validation.json,PASS
+3.11,STRING nodes,21,21.0,revision/string_summary.json,PASS
+3.11,STRING edges,43,43.0,revision/string_summary.json,PASS
+3.11,STRING largest module size,15,15.0,revision/string_summary.json,PASS
+3.11,candidates without partner,True,True,revision/string_summary.json,PASS
+3.11,most central nodes,"['DSP', 'LOR', 'SPRR1B']","['DSP', 'LOR', 'SPRR1B']",revision/string_summary.json,PASS
+2.1,best rule is log2 averaging (3 series),True,True,preprocessing/summary.json,PASS
+2.1,log2-mean rho low,0.96,0.9594,preprocessing/summary.json,PASS
+2.1,log2-mean rho high,0.98,0.9761,preprocessing/summary.json,PASS
+2.1,best-probe rho low,0.86,0.8634,preprocessing/summary.json,PASS
+2.1,best-probe rho high,0.88,0.8845,preprocessing/summary.json,PASS
+2.1,single-probe rho low (3 series),0.95,0.9492,preprocessing/summary.json,PASS
+2.1,single-probe rho high,0.97,0.9718,preprocessing/summary.json,PASS
+2.1,single-probe rho GSE15605,0.88,0.8843,preprocessing/summary.json,PASS
+2.1,genes matching GPL96 symbols,11469,11469.0,preprocessing/summary.json,PASS
+3.10,balanced acc. without the pair,0.875,0.875072,revision/duplicate_sensitivity.json,PASS
+3.4,proposed genes mean F1,0.485,0.484843,review/part2.json,PASS
+3.4,published markers mean F1,0.441,0.441469,review/part2.json,PASS
+3.4,Mann-Whitney p,0.0004,0.000388,review/part2.json,PASS
+3.4,proposed higher in all 5 folds,True,True,review/part2.json,PASS
+Table 4,study 1 n,52,52.0,table4_leave_one_study_out.csv,PASS
+Table 4,study 1 balanced acc.,0.457,0.457143,table4,PASS
+Table 4,study 1 macro F1,0.385,0.384921,table4,PASS
+Table 4,study 2 n,83,83.0,table4_leave_one_study_out.csv,PASS
+Table 4,study 2 balanced acc.,0.859,0.858561,table4,PASS
+Table 4,study 2 macro F1,0.579,0.579329,table4,PASS
+Table 4,study 3 n,74,74.0,table4_leave_one_study_out.csv,PASS
+Table 4,study 3 balanced acc.,0.66,0.660326,table4,PASS
+Table 4,study 3 macro F1,0.585,0.585462,table4,PASS
+Table 4,study 4 n,112,112.0,table4_leave_one_study_out.csv,PASS
+Table 4,study 4 balanced acc.,0.848,0.848174,table4,PASS
+Table 4,study 4 macro F1,0.842,0.842483,table4,PASS
+Table 5,signature three-class,0.873,0.873,review/part3.json,PASS
+Table 5,signature primary vs metastatic,0.899,0.899,review/part3.json,PASS
+Table 5,adj_keratinocyte three-class,0.864,0.864,review/part3.json,PASS
+Table 5,adj_keratinocyte primary vs metastatic,0.822,0.822,review/part3.json,PASS
+Table 5,adj_all three-class,0.665,0.665,review/part3.json,PASS
+Table 5,adj_all primary vs metastatic,0.796,0.796,review/part3.json,PASS
+Table 5,keratinocyte_only three-class,0.481,0.481,review/part3.json,PASS
+Table 5,keratinocyte_only primary vs metastatic,0.655,0.655,review/part3.json,PASS
+Table 5,all_scores_only three-class,0.874,0.874,review/part3.json,PASS
+Table 5,all_scores_only primary vs metastatic,0.855,0.855,review/part3.json,PASS
+3.7,normal skin keratinocyte score,0.92,0.923,review/cell_scores_by_class.json,PASS
+3.7,normal skin melanocyte score,-1.16,-1.16,review/cell_scores_by_class.json,PASS
+3.7,metastatic keratinocyte score,-0.58,-0.581,review/cell_scores_by_class.json,PASS
+3.8,network nodes,41,41.0,table9_network_summary.json,PASS
+3.8,network edges,574,574.0,table9_network_summary.json,PASS
+3.8,component sizes,"[38, 3]","[38, 3]",table9_network_summary.json,PASS
+3.8,isolated genes,19,19.0,table9_network_summary.json,PASS
+3.8,median degree of epidermal module,32,32.0,table9_coexpression_network.csv,PASS
+Table S3,fold overlaps with main signature,"[13, 13, 13, 14, 13]","[13, 13, 13, 14, 13]",table12_sensitivity.json,PASS
+Table S3,full Boruta balanced acc.,0.882,0.881757,table12_sensitivity.json,PASS
+Table S3,exact MIC balanced acc.,0.861,0.860586,table12_sensitivity.json,PASS
+Table S3,reference kNN macro F1,0.875,0.875,table12_sensitivity.json,PASS
+Table S3,top-15 overlap,14,14.0,sensitivity/discovery_comparison.json,PASS
+Table S3,top-60 overlap,56,56.0,sensitivity/discovery_comparison.json,PASS

@@ -1,0 +1,131 @@
+{
+  "per_method": [
+    {
+      "method": "Boruta (reference)",
+      "fold": 4,
+      "runtime_s": 49.50735354423523,
+      "accuracy": 0.921875,
+      "balanced_accuracy": 0.9428571428571427,
+      "precision_macro": 0.9055829228243022,
+      "sensitivity_macro": 0.9428571428571427,
+      "f1_macro": 0.9223008629788291,
+      "specificity_macro": 0.956126511907445,
+      "auc_ovr": 0.9893397780568165
+    },
+    {
+      "method": "MIC (reference)",
+      "fold": 4,
+      "runtime_s": 10.434310674667358,
+      "accuracy": 0.875,
+      "balanced_accuracy": 0.7753968253968254,
+      "precision_macro": 0.8450226244343891,
+      "sensitivity_macro": 0.7753968253968254,
+      "f1_macro": 0.8003086419753087,
+      "specificity_macro": 0.9261700848921944,
+      "auc_ovr": 0.9090381075801967
+    }
+  ],
+  "models": [
+    {
+      "model": "KNN",
+      "features": "consensus-15",
+      "fold": 4,
+      "accuracy": 0.890625,
+      "balanced_accuracy": 0.7865079365079365,
+      "precision_macro": 0.9300366300366302,
+      "sensitivity_macro": 0.7865079365079365,
+      "f1_macro": 0.8283000949667616,
+      "specificity_macro": 0.931917211328976,
+      "auc_ovr": 0.9458981964433284
+    },
+    {
+      "model": "DropoutMLP",
+      "features": "consensus-15",
+      "fold": 4,
+      "accuracy": 0.90625,
+      "balanced_accuracy": 0.9309523809523809,
+      "precision_macro": 0.9309523809523809,
+      "sensitivity_macro": 0.9309523809523809,
+      "f1_macro": 0.9309523809523809,
+      "specificity_macro": 0.9428104575163397,
+      "auc_ovr": 0.9825824774354186
+    }
+  ],
+  "signature": [
+    "PLPPR4",
+    "S100A7",
+    "KRT14",
+    "KRT6A",
+    "KRT16",
+    "KRT6B",
+    "SERPINB5",
+    "SPRR1B",
+    "ANXA8",
+    "EVPL",
+    "AGTR1",
+    "NPY1R",
+    "KRT15",
+    "EMP3",
+    "KLK7"
+  ],
+  "original_signature": [
+    "PLPPR4",
+    "S100A7",
+    "KRT14",
+    "KRT6A",
+    "KRT16",
+    "NPY1R",
+    "KRT6B",
+    "SERPINB5",
+    "EVPL",
+    "AGTR1",
+    "SPRR1B",
+    "KRT15",
+    "TSPAN8",
+    "ANXA8",
+    "KLF5"
+  ],
+  "selected_new": {
+    "Boruta": [
+      "CHP2",
+      "ADH1B",
+      "KRT23",
+      "ANXA8",
+      "EMP3",
+      "CDHR1",
+      "HLF",
+      "ARPC1B",
+      "TRIB2",
+      "EPCAM",
+      "CLDN8",
+      "TACC2",
+      "CHST11",
+      "PLPPR4",
+      "KRT6B"
+    ],
+    "MIC": [
+      "KRT14",
+      "PLPPR4",
+      "IVL",
+      "ANXA8",
+      "KRT16",
+      "KLK5",
+      "BBOX1",
+      "CSTA",
+      "KRT10",
+      "DEFB1",
+      "KRT6A",
+      "KLK7",
+      "CDSN",
+      "SPRR1B",
+      "DSP"
+    ]
+  },
+  "redundant_clusters": {
+    "Permutation Importance": [
+      "ANOVA",
+      "Fisher Score",
+      "Permutation Importance"
+    ]
+  }
+}

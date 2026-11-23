@@ -1,0 +1,27 @@
+{
+  "n_genes_raw": 12339,
+  "n_samples": 321,
+  "excel_date_symbols_fixed": {
+    "Mar-01": "MARCHF1",
+    "Mar-02": "MARCHF2",
+    "Mar-03": "MARCHF3",
+    "Mar-05": "MARCHF5",
+    "Mar-06": "MARCHF6",
+    "Mar-07": "MARCHF7",
+    "Mar-08": "MARCHF8",
+    "Sep-15": "SEPTIN15",
+    "Sep-10": "SEPTIN10",
+    "Sep-11": "SEPTIN11",
+    "Sep-02": "SEPTIN2",
+    "Sep-04": "SEPTIN4",
+    "Sep-06": "SEPTIN6",
+    "Sep-07": "SEPTIN7",
+    "Sep-08": "SEPTIN8",
+    "Sep-09": "SEPTIN9"
+  },
+  "duplicate_genes_collapsed": [
+    "MARCHF1",
+    "MARCHF2"
+  ],
+  "n_genes_clean": 12337
+}

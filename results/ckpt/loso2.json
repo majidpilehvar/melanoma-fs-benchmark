@@ -1,0 +1,51 @@
+{
+  "held_out_study": 2,
+  "n_test": 74,
+  "classes_in_test": [
+    1,
+    2,
+    3
+  ],
+  "classes_in_train": [
+    1,
+    2,
+    3
+  ],
+  "signature": [
+    "PLPPR4",
+    "SOX15",
+    "KRT6A",
+    "SFN",
+    "MIR4800",
+    "HOXA10-HOXA9",
+    "AHNAK",
+    "KRT16",
+    "TMEM204",
+    "SERPINE2",
+    "KRT14",
+    "S100A7",
+    "FLG",
+    "SERPINB5",
+    "JUND"
+  ],
+  "results": [
+    {
+      "model": "KNN",
+      "accuracy": 0.5945945945945946,
+      "balanced_accuracy": 0.6603260869565217,
+      "precision_macro": 0.7192192192192192,
+      "sensitivity_macro": 0.6603260869565217,
+      "f1_macro": 0.5854621024611218,
+      "specificity_macro": 0.8060675883256528
+    },
+    {
+      "model": "MLP",
+      "accuracy": 0.5,
+      "balanced_accuracy": 0.5280797101449276,
+      "precision_macro": 0.6636636636636636,
+      "sensitivity_macro": 0.5280797101449276,
+      "f1_macro": 0.39760294361647097,
+      "specificity_macro": 0.7227342549923196
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "model": "DropoutMLP",
+  "features": "all-genes",
+  "fold": 3,
+  "epochs": 38,
+  "accuracy": 0.828125,
+  "balanced_accuracy": 0.828952608522501,
+  "precision_macro": 0.7997164126196384,
+  "sensitivity_macro": 0.828952608522501,
+  "f1_macro": 0.8127097086318024,
+  "specificity_macro": 0.9019646605853503,
+  "auc_ovr": 0.9336961932438387
+}

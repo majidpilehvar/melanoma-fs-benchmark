@@ -1,0 +1,33 @@
+section,claim,stated_in_paper,recomputed,source,result
+2.1,genes after cleaning,12337.0,12337.0,Data.csv,PASS
+2.1,samples,321.0,321.0,Data.csv,PASS
+2.1,class 1 size,31.0,31.0,Data.csv,PASS
+2.1,class 2 size,153.0,153.0,Data.csv,PASS
+2.1,class 3 size,137.0,137.0,Data.csv,PASS
+Table S1,study 1 class 1,7.0,7.0,Data.csv,PASS
+Table S1,study 1 class 2,45.0,45.0,Data.csv,PASS
+Table S1,study 1 class 3,0.0,0.0,Data.csv,PASS
+Table S1,study 2 class 1,0.0,0.0,Data.csv,PASS
+Table S1,study 2 class 2,31.0,31.0,Data.csv,PASS
+Table S1,study 2 class 3,52.0,52.0,Data.csv,PASS
+Table S1,study 3 class 1,16.0,16.0,Data.csv,PASS
+Table S1,study 3 class 2,46.0,46.0,Data.csv,PASS
+Table S1,study 3 class 3,12.0,12.0,Data.csv,PASS
+Table S1,study 4 class 1,8.0,8.0,Data.csv,PASS
+Table S1,study 4 class 2,31.0,31.0,Data.csv,PASS
+Table S1,study 4 class 3,73.0,73.0,Data.csv,PASS
+2.1,rows with date-converted symbols,18.0,18.0,Data.csv,PASS
+3.6,PLPPR4 mean class 1,6.69,6.688778,Data.csv,PASS
+3.6,PLPPR4 mean class 2,8.34,8.342726,Data.csv,PASS
+3.6,PLPPR4 mean class 3,6.52,6.520186,Data.csv,PASS
+3.6,EMP3 mean class 1,9.63,9.62502,Data.csv,PASS
+3.6,EMP3 mean class 2,11.44,11.438944,Data.csv,PASS
+3.6,EMP3 mean class 3,10.63,10.626886,Data.csv,PASS
+3.6,PLPPR4 SD of study means,0.17,0.16675,Data.csv,PASS
+3.6,PLPPR4 mean within-study SD,1.49,1.48575,Data.csv,PASS
+3.6,PLPPR4 pooled tumour vs normal p (order of magnitude),-4.0,-4.0,Data.csv,PASS
+1 / 4.2,selectors choosing PLPPR4,23.0,23.0,selected_features_per_method.csv,PASS
+2.1,PC1 variance explained by class (%),38.0,37.586547,Data.csv,PASS
+2.1,PC1 variance explained by study (%),1.0,1.133438,Data.csv,PASS
+2.1,RF accuracy predicting study (main folds),0.63,0.625625,Data.csv,PASS
+2.1,majority baseline for study,0.35,0.34891,Data.csv,PASS

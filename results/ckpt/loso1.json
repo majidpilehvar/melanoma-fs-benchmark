@@ -1,0 +1,50 @@
+{
+  "held_out_study": 1,
+  "n_test": 83,
+  "classes_in_test": [
+    2,
+    3
+  ],
+  "classes_in_train": [
+    1,
+    2,
+    3
+  ],
+  "signature": [
+    "PLPPR4",
+    "KRT14",
+    "CDHR1",
+    "SCGB1D2",
+    "TUBB4A",
+    "EMP3",
+    "C1orf116",
+    "KRT15",
+    "CHP2",
+    "SERPINB5",
+    "OSBPL2",
+    "MMP7",
+    "DSC3",
+    "PID1",
+    "S100A7"
+  ],
+  "results": [
+    {
+      "model": "KNN",
+      "accuracy": 0.8554216867469879,
+      "balanced_accuracy": 0.858560794044665,
+      "precision_macro": 0.5906318082788671,
+      "sensitivity_macro": 0.5723738626964433,
+      "f1_macro": 0.5793285752048639,
+      "specificity_macro": 0.9283112599280496
+    },
+    {
+      "model": "MLP",
+      "accuracy": 0.7228915662650602,
+      "balanced_accuracy": 0.7332506203473945,
+      "precision_macro": 0.5384615384615384,
+      "sensitivity_macro": 0.48883374689826303,
+      "f1_macro": 0.5012987012987012,
+      "specificity_macro": 0.8717176397899289
+    }
+  ]
+}

@@ -1,0 +1,252 @@
+{
+  "marker_genes_used": {
+    "keratinocyte": [
+      "KRT5",
+      "KRT10",
+      "DSG1",
+      "DSC3",
+      "IVL",
+      "TP63",
+      "PERP",
+      "KRT2",
+      "SPRR1A"
+    ],
+    "melanocyte": [
+      "PMEL",
+      "MLANA",
+      "DCT",
+      "MITF",
+      "SOX10",
+      "S100B"
+    ],
+    "fibroblast": [
+      "COL1A1",
+      "COL1A2",
+      "COL3A1",
+      "DCN",
+      "LUM",
+      "PDGFRB",
+      "FBLN1"
+    ],
+    "endothelial": [
+      "PECAM1",
+      "VWF",
+      "CDH5",
+      "CLDN5",
+      "EMCN"
+    ],
+    "immune": [
+      "PTPRC",
+      "CD3E",
+      "CD2",
+      "MS4A1",
+      "CD14",
+      "CD68",
+      "LYZ",
+      "CD53"
+    ]
+  },
+  "cell_scores_by_class": {
+    "keratinocyte": {
+      "normal skin": 1.024,
+      "primary melanoma": 0.32,
+      "metastatic melanoma": -0.589
+    },
+    "melanocyte": {
+      "normal skin": -1.16,
+      "primary melanoma": 0.263,
+      "metastatic melanoma": -0.031
+    },
+    "fibroblast": {
+      "normal skin": 0.652,
+      "primary melanoma": 0.104,
+      "metastatic melanoma": -0.263
+    },
+    "endothelial": {
+      "normal skin": 0.893,
+      "primary melanoma": 0.046,
+      "metastatic melanoma": -0.254
+    },
+    "immune": {
+      "normal skin": -0.364,
+      "primary melanoma": 0.067,
+      "metastatic melanoma": 0.008
+    }
+  },
+  "three_class": {
+    "signature_15": {
+      "accuracy": 0.938,
+      "balanced_accuracy": 0.918,
+      "precision_macro": 0.948,
+      "sensitivity_macro": 0.918,
+      "f1_macro": 0.929,
+      "specificity_macro": 0.963,
+      "auc_ovr": 0.965
+    },
+    "keratinocyte_score_only": {
+      "accuracy": 0.611,
+      "balanced_accuracy": 0.504,
+      "precision_macro": 0.507,
+      "sensitivity_macro": 0.504,
+      "f1_macro": 0.504,
+      "specificity_macro": 0.778,
+      "auc_ovr": 0.707
+    },
+    "all_5_cell_scores_only": {
+      "accuracy": 0.857,
+      "balanced_accuracy": 0.877,
+      "precision_macro": 0.876,
+      "sensitivity_macro": 0.877,
+      "f1_macro": 0.873,
+      "specificity_macro": 0.915,
+      "auc_ovr": 0.938
+    },
+    "signature_15_adj_keratinocyte": {
+      "accuracy": 0.869,
+      "balanced_accuracy": 0.867,
+      "precision_macro": 0.908,
+      "sensitivity_macro": 0.867,
+      "f1_macro": 0.883,
+      "specificity_macro": 0.919,
+      "auc_ovr": 0.941
+    },
+    "signature_15_adj_all_cell_types": {
+      "accuracy": 0.751,
+      "balanced_accuracy": 0.64,
+      "precision_macro": 0.689,
+      "sensitivity_macro": 0.64,
+      "f1_macro": 0.65,
+      "specificity_macro": 0.849,
+      "auc_ovr": 0.824
+    }
+  },
+  "primary_vs_metastatic": {
+    "signature_15": {
+      "accuracy": 0.921,
+      "balanced_accuracy": 0.92,
+      "precision_macro": 0.922,
+      "sensitivity_macro": 0.92,
+      "f1_macro": 0.92,
+      "specificity_macro": 0.92
+    },
+    "keratinocyte_score_only": {
+      "accuracy": 0.683,
+      "balanced_accuracy": 0.683,
+      "precision_macro": 0.686,
+      "sensitivity_macro": 0.683,
+      "f1_macro": 0.681,
+      "specificity_macro": 0.683
+    },
+    "all_5_cell_scores_only": {
+      "accuracy": 0.859,
+      "balanced_accuracy": 0.857,
+      "precision_macro": 0.862,
+      "sensitivity_macro": 0.857,
+      "f1_macro": 0.857,
+      "specificity_macro": 0.857
+    },
+    "signature_15_adj_keratinocyte": {
+      "accuracy": 0.814,
+      "balanced_accuracy": 0.812,
+      "precision_macro": 0.816,
+      "sensitivity_macro": 0.812,
+      "f1_macro": 0.812,
+      "specificity_macro": 0.812
+    },
+    "signature_15_adj_all_cell_types": {
+      "accuracy": 0.752,
+      "balanced_accuracy": 0.75,
+      "precision_macro": 0.753,
+      "sensitivity_macro": 0.75,
+      "f1_macro": 0.75,
+      "specificity_macro": 0.75
+    }
+  },
+  "gene_composition_correlation": {
+    "keratinocyte": {
+      "PLPPR4": 0.396,
+      "KRT6A": 0.931,
+      "KRT14": 0.919,
+      "EMP3": 0.038,
+      "ANXA8": 0.959,
+      "KRT16": 0.91,
+      "S100A7": 0.922,
+      "SERPINB5": 0.968,
+      "KLF5": 0.879,
+      "AHNAK": 0.804,
+      "KRT6B": 0.95,
+      "PLOD3": -0.416,
+      "FABP4": 0.061,
+      "CDC42EP3": -0.111,
+      "JUP": 0.955
+    },
+    "melanocyte": {
+      "PLPPR4": 0.151,
+      "KRT6A": 0.001,
+      "KRT14": -0.022,
+      "EMP3": 0.524,
+      "ANXA8": -0.178,
+      "KRT16": 0.027,
+      "S100A7": 0.055,
+      "SERPINB5": -0.123,
+      "KLF5": -0.224,
+      "AHNAK": -0.234,
+      "KRT6B": -0.007,
+      "PLOD3": 0.499,
+      "FABP4": -0.419,
+      "CDC42EP3": 0.364,
+      "JUP": -0.092
+    },
+    "fibroblast": {
+      "PLPPR4": 0.254,
+      "KRT6A": 0.406,
+      "KRT14": 0.434,
+      "EMP3": 0.055,
+      "ANXA8": 0.429,
+      "KRT16": 0.39,
+      "S100A7": 0.385,
+      "SERPINB5": 0.451,
+      "KLF5": 0.422,
+      "AHNAK": 0.441,
+      "KRT6B": 0.416,
+      "PLOD3": -0.238,
+      "FABP4": 0.32,
+      "CDC42EP3": -0.141,
+      "JUP": 0.444
+    },
+    "endothelial": {
+      "PLPPR4": 0.117,
+      "KRT6A": 0.415,
+      "KRT14": 0.431,
+      "EMP3": -0.083,
+      "ANXA8": 0.465,
+      "KRT16": 0.399,
+      "S100A7": 0.381,
+      "SERPINB5": 0.491,
+      "KLF5": 0.463,
+      "AHNAK": 0.494,
+      "KRT6B": 0.44,
+      "PLOD3": -0.457,
+      "FABP4": 0.448,
+      "CDC42EP3": -0.265,
+      "JUP": 0.479
+    },
+    "immune": {
+      "PLPPR4": -0.019,
+      "KRT6A": 0.051,
+      "KRT14": -0.007,
+      "EMP3": 0.033,
+      "ANXA8": 0.073,
+      "KRT16": 0.104,
+      "S100A7": 0.087,
+      "SERPINB5": 0.071,
+      "KLF5": -0.062,
+      "AHNAK": -0.004,
+      "KRT6B": 0.073,
+      "PLOD3": -0.341,
+      "FABP4": -0.002,
+      "CDC42EP3": -0.129,
+      "JUP": 0.087
+    }
+  }
+}
