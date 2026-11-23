@@ -1,0 +1,52 @@
+{
+  "best_rule_per_series": [
+    {
+      "series": "GSE8401",
+      "rule": "mean",
+      "averaged_on": "log2",
+      "median_rho": 0.9761,
+      "min_rho": 0.9635
+    },
+    {
+      "series": "GSE3189",
+      "rule": "mean",
+      "averaged_on": "log2",
+      "median_rho": 0.9664,
+      "min_rho": 0.9443
+    },
+    {
+      "series": "GSE46517",
+      "rule": "mean",
+      "averaged_on": "log2",
+      "median_rho": 0.9594,
+      "min_rho": 0.935
+    },
+    {
+      "series": "GSE15605",
+      "rule": "median",
+      "averaged_on": "log2",
+      "median_rho": 0.8616,
+      "min_rho": 0.8058
+    }
+  ],
+  "best_probe_rule_median_rho": {
+    "GSE15605": 0.7863,
+    "GSE3189": 0.8818,
+    "GSE46517": 0.8634,
+    "GSE8401": 0.8845
+  },
+  "single_probe_gene_median_rho": {
+    "GSE3189": 0.9621,
+    "GSE8401": 0.9718,
+    "GSE46517": 0.9492,
+    "GSE15605": 0.8843
+  },
+  "genes_matching_current_GPL96_symbols": 11469,
+  "genes_total": 12339,
+  "geo_processing": {
+    "GSE3189": "MAS5",
+    "GSE8401": "RMA",
+    "GSE46517": "RMA",
+    "GSE15605": "MAS5 + quantile, log2, probe-filtered"
+  }
+}

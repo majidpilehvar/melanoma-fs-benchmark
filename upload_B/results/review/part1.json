@@ -1,0 +1,41 @@
+{
+  "pairwise_overlap_min": 0,
+  "pairwise_overlap_median": 2.0,
+  "pairs_with_zero_overlap": 72,
+  "n_pairs": 496,
+  "top5_methods": [
+    "ACO",
+    "MIFS",
+    "Forward Selection",
+    "Simulated Annealing",
+    "Boruta"
+  ],
+  "top5_pairwise_overlap": {
+    "ACO|MIFS": 1,
+    "ACO|Forward Selection": 3,
+    "ACO|Simulated Annealing": 3,
+    "ACO|Boruta": 1,
+    "MIFS|Forward Selection": 2,
+    "MIFS|Simulated Annealing": 2,
+    "MIFS|Boruta": 2,
+    "Forward Selection|Simulated Annealing": 0,
+    "Forward Selection|Boruta": 3,
+    "Simulated Annealing|Boruta": 2
+  },
+  "inflation_median": 0.015649038461538478,
+  "inflation_mean": 0.016675180288461558,
+  "inflation_min": -0.028173076923076912,
+  "inflation_max": 0.059278846153846154,
+  "n_methods_inflated": 24,
+  "anova_leaky_vs_nested": [
+    0.8971634615384616,
+    0.8378846153846154
+  ],
+  "null_nested": {
+    "observed": 0.8433311810031746,
+    "null_mean": 0.5188249314527515,
+    "null_p95": 0.6502473286404208,
+    "null_max": 0.7217337379424407,
+    "empirical_p": 0.001996007984031936
+  }
+}

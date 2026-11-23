@@ -1,0 +1,135 @@
+{
+  "per_method": [
+    {
+      "method": "Boruta (reference)",
+      "fold": 1,
+      "runtime_s": 48.63528871536255,
+      "accuracy": 0.875,
+      "balanced_accuracy": 0.8211867781760255,
+      "precision_macro": 0.8540229885057471,
+      "sensitivity_macro": 0.8211867781760255,
+      "f1_macro": 0.8351252572564047,
+      "specificity_macro": 0.9279138072241521,
+      "auc_ovr": 0.928508205343578
+    },
+    {
+      "method": "MIC (reference)",
+      "fold": 1,
+      "runtime_s": 10.425366401672363,
+      "accuracy": 0.8125,
+      "balanced_accuracy": 0.8677817602548785,
+      "precision_macro": 0.7785984848484849,
+      "sensitivity_macro": 0.8677817602548785,
+      "f1_macro": 0.796636819102441,
+      "specificity_macro": 0.9038474210888005,
+      "auc_ovr": 0.9523974458160591
+    }
+  ],
+  "models": [
+    {
+      "model": "KNN",
+      "features": "consensus-15",
+      "fold": 1,
+      "accuracy": 0.921875,
+      "balanced_accuracy": 0.9446435682994823,
+      "precision_macro": 0.8646384479717812,
+      "sensitivity_macro": 0.9446435682994823,
+      "f1_macro": 0.8927390667503662,
+      "specificity_macro": 0.963648601579636,
+      "auc_ovr": 0.9783146732534943
+    },
+    {
+      "model": "DropoutMLP",
+      "features": "consensus-15",
+      "fold": 1,
+      "accuracy": 0.90625,
+      "balanced_accuracy": 0.9307048984468339,
+      "precision_macro": 0.8688034188034188,
+      "sensitivity_macro": 0.9307048984468339,
+      "f1_macro": 0.8936120071288646,
+      "specificity_macro": 0.9502857089063986,
+      "auc_ovr": 0.9604571285142289
+    }
+  ],
+  "signature": [
+    "PLPPR4",
+    "EMP3",
+    "KRT16",
+    "FABP4",
+    "SOX15",
+    "KRT14",
+    "SERPINB5",
+    "CWH43",
+    "ANXA8",
+    "AHNAK",
+    "S100A7",
+    "KRT6A",
+    "KRT6B",
+    "MAOA",
+    "CHP2"
+  ],
+  "original_signature": [
+    "PLPPR4",
+    "EMP3",
+    "KRT16",
+    "FABP4",
+    "S100A7",
+    "KRT14",
+    "SERPINB5",
+    "CWH43",
+    "KRT6A",
+    "KRT6B",
+    "CHP2",
+    "AHNAK",
+    "DSC3",
+    "SOX15",
+    "S100A14"
+  ],
+  "selected_new": {
+    "Boruta": [
+      "SCGB1D2",
+      "ZBTB16",
+      "PLPPR4",
+      "EMP3",
+      "FGFR2",
+      "C1orf116",
+      "CLDN8",
+      "AHNAK",
+      "SOX15",
+      "MUC1",
+      "MAOA",
+      "ANXA8",
+      "TRIB2",
+      "SCGB2A2",
+      "HLF"
+    ],
+    "MIC": [
+      "PLPPR4",
+      "KRT14",
+      "KRT16",
+      "ANXA8",
+      "IVL",
+      "SPRR1B",
+      "DSP",
+      "SPRR1A",
+      "KRT10",
+      "DEFB1",
+      "KLK7",
+      "BBOX1",
+      "SFN",
+      "SOX15",
+      "JUP"
+    ]
+  },
+  "redundant_clusters": {
+    "Permutation Importance": [
+      "ANOVA",
+      "Fisher Score",
+      "Permutation Importance"
+    ],
+    "PCA Loading": [
+      "Variance Threshold",
+      "PCA Loading"
+    ]
+  }
+}
