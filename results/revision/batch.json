@@ -1,0 +1,47 @@
+{
+  "pooled_cv_consensus_bal_acc": {
+    "uncorrected": 0.8728696592137453,
+    "in_fold_corrected": 0.9044324970131422
+  },
+  "study_prediction_accuracy": {
+    "uncorrected": 0.625625,
+    "in_fold_corrected": 0.719326923076923,
+    "majority_baseline": 0.34890965732087226
+  },
+  "loso_study_centring": {
+    "study_1": {
+      "uncorrected": 0.4571428571428572,
+      "study_centred": 0.5238095238095238,
+      "classes_present": [
+        1,
+        2
+      ]
+    },
+    "study_2": {
+      "uncorrected": 0.858560794044665,
+      "study_centred": 0.8777915632754343,
+      "classes_present": [
+        2,
+        3
+      ]
+    },
+    "study_3": {
+      "uncorrected": 0.6603260869565217,
+      "study_centred": 0.5552536231884058,
+      "classes_present": [
+        1,
+        2,
+        3
+      ]
+    },
+    "study_4": {
+      "uncorrected": 0.8481735159817352,
+      "study_centred": 0.8299086757990867,
+      "classes_present": [
+        1,
+        2,
+        3
+      ]
+    }
+  }
+}

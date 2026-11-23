@@ -1,0 +1,117 @@
+{
+  "n_tcga_primary": 103,
+  "n_tcga_metastatic": 369,
+  "genes": [
+    "PLPPR4",
+    "KRT6A",
+    "KRT14",
+    "EMP3",
+    "ANXA8",
+    "KRT16",
+    "S100A7",
+    "SERPINB5",
+    "KLF5",
+    "AHNAK",
+    "KRT6B",
+    "PLOD3",
+    "FABP4",
+    "CDC42EP3",
+    "JUP"
+  ],
+  "kNN": {
+    "accuracy": 0.701,
+    "balanced_accuracy": 0.746,
+    "precision_macro": 0.67,
+    "sensitivity_macro": 0.746,
+    "f1_macro": 0.662,
+    "specificity_macro": 0.746,
+    "auc": 0.796
+  },
+  "logistic": {
+    "accuracy": 0.674,
+    "balanced_accuracy": 0.746,
+    "precision_macro": 0.668,
+    "sensitivity_macro": 0.746,
+    "f1_macro": 0.643,
+    "specificity_macro": 0.746,
+    "auc": 0.842
+  },
+  "direction_agreement": 13,
+  "per_gene": {
+    "PLPPR4": {
+      "microarray_diff": -1.82,
+      "tcga_diff": -0.79,
+      "tcga_p": 5.4e-05
+    },
+    "KRT6A": {
+      "microarray_diff": -3.84,
+      "tcga_diff": -6.89,
+      "tcga_p": 8.8e-23
+    },
+    "KRT14": {
+      "microarray_diff": -4.39,
+      "tcga_diff": -7.34,
+      "tcga_p": 6.3e-27
+    },
+    "EMP3": {
+      "microarray_diff": -0.81,
+      "tcga_diff": -0.76,
+      "tcga_p": 7e-10
+    },
+    "ANXA8": {
+      "microarray_diff": -1.92,
+      "tcga_diff": -4.45,
+      "tcga_p": 8.7e-24
+    },
+    "KRT16": {
+      "microarray_diff": -3.67,
+      "tcga_diff": -6.99,
+      "tcga_p": 5.9e-24
+    },
+    "S100A7": {
+      "microarray_diff": -4.51,
+      "tcga_diff": -6.26,
+      "tcga_p": 1.7e-23
+    },
+    "SERPINB5": {
+      "microarray_diff": -3.01,
+      "tcga_diff": -4.67,
+      "tcga_p": 7.4e-22
+    },
+    "KLF5": {
+      "microarray_diff": -1.44,
+      "tcga_diff": -1.0,
+      "tcga_p": 2.3e-06
+    },
+    "AHNAK": {
+      "microarray_diff": -1.13,
+      "tcga_diff": -0.29,
+      "tcga_p": 0.022
+    },
+    "KRT6B": {
+      "microarray_diff": -3.04,
+      "tcga_diff": -6.79,
+      "tcga_p": 9.2e-25
+    },
+    "PLOD3": {
+      "microarray_diff": 0.07,
+      "tcga_diff": -0.39,
+      "tcga_p": 1.7e-05
+    },
+    "FABP4": {
+      "microarray_diff": 0.87,
+      "tcga_diff": 1.69,
+      "tcga_p": 6.3e-09
+    },
+    "CDC42EP3": {
+      "microarray_diff": -0.47,
+      "tcga_diff": 0.1,
+      "tcga_p": 0.48
+    },
+    "JUP": {
+      "microarray_diff": -2.58,
+      "tcga_diff": -1.16,
+      "tcga_p": 8.5e-06
+    }
+  }
+}

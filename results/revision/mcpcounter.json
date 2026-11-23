@@ -1,0 +1,103 @@
+{
+  "markers_found": {
+    "T cells": 13,
+    "CD8 T cells": 1,
+    "Cytotoxic lymphocytes": 5,
+    "B lineage": 9,
+    "NK cells": 8,
+    "Monocytic lineage": 7,
+    "Myeloid dendritic cells": 5,
+    "Neutrophils": 15,
+    "Endothelial cells": 23,
+    "Fibroblasts": 8
+  },
+  "markers_total": {
+    "T cells": 16,
+    "CD8 T cells": 1,
+    "Cytotoxic lymphocytes": 7,
+    "B lineage": 9,
+    "NK cells": 9,
+    "Monocytic lineage": 7,
+    "Myeloid dendritic cells": 6,
+    "Neutrophils": 15,
+    "Endothelial cells": 33,
+    "Fibroblasts": 8
+  },
+  "marker_overlap_with_signatures": {},
+  "scores_by_class": {
+    "T cells": {
+      "1": 5.567,
+      "2": 5.775,
+      "3": 5.704
+    },
+    "CD8 T cells": {
+      "1": 5.108,
+      "2": 5.374,
+      "3": 5.291
+    },
+    "Cytotoxic lymphocytes": {
+      "1": 4.608,
+      "2": 5.195,
+      "3": 5.308
+    },
+    "B lineage": {
+      "1": 5.02,
+      "2": 5.311,
+      "3": 5.638
+    },
+    "NK cells": {
+      "1": 4.632,
+      "2": 4.937,
+      "3": 4.877
+    },
+    "Monocytic lineage": {
+      "1": 6.228,
+      "2": 6.445,
+      "3": 6.588
+    },
+    "Myeloid dendritic cells": {
+      "1": 6.447,
+      "2": 5.909,
+      "3": 5.432
+    },
+    "Neutrophils": {
+      "1": 5.792,
+      "2": 5.634,
+      "3": 5.45
+    },
+    "Endothelial cells": {
+      "1": 6.364,
+      "2": 5.861,
+      "3": 5.771
+    },
+    "Fibroblasts": {
+      "1": 8.697,
+      "2": 8.056,
+      "3": 7.6
+    }
+  },
+  "three_class": {
+    "mcp_counter_10": {
+      "signature": 0.873,
+      "signature_adjusted": 0.702,
+      "scores_alone": 0.749
+    },
+    "mcp_counter_plus_keratinocyte_melanocyte": {
+      "signature": 0.873,
+      "signature_adjusted": 0.635,
+      "scores_alone": 0.843
+    }
+  },
+  "primary_vs_metastatic": {
+    "mcp_counter_10": {
+      "signature": 0.899,
+      "signature_adjusted": 0.767,
+      "scores_alone": 0.747
+    },
+    "mcp_counter_plus_keratinocyte_melanocyte": {
+      "signature": 0.899,
+      "signature_adjusted": 0.737,
+      "scores_alone": 0.843
+    }
+  }
+}

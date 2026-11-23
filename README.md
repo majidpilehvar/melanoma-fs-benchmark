@@ -3,7 +3,7 @@
 Code, data and results for: Pilehvar M, Razmara J, Karimpour J. *Benchmarking feature selection for melanoma
 transcriptomics: accuracy, stability, tissue composition and cross-cohort generalisation* (submitted).
 
-`data/Data.csv` is the merged, quantile-normalised matrix (12,339 genes x 321 samples; last row = class:
+`data/Data.csv.gz` (read directly; no need to unzip) is the merged, quantile-normalised matrix (12,339 genes x 321 samples; last row = class:
 1 normal skin, 2 primary melanoma, 3 metastatic melanoma) built from GEO series GSE3189, GSE8401, GSE15605 and
 GSE46517. Every number in the manuscript is checked by `audit_numbers.py` against `results/`;
 `bash reproduce_all.sh` regenerates everything (about 2-3 hours on one CPU core).

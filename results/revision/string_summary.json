@@ -1,0 +1,105 @@
+{
+  "nodes": 21,
+  "edges": 43,
+  "components": [
+    [
+      "CST6",
+      "DSP",
+      "EVPL",
+      "FLG",
+      "JUP",
+      "KLK7",
+      "KRT1",
+      "KRT14",
+      "KRT15",
+      "KRT16",
+      "KRT19",
+      "KRT6A",
+      "KRT6B",
+      "LOR",
+      "SPRR1B"
+    ],
+    [
+      "CA12",
+      "TMEM30B"
+    ],
+    [
+      "TYR",
+      "TYRP1"
+    ],
+    [
+      "SERPINB5",
+      "SFN"
+    ]
+  ],
+  "not_connected": [
+    "ADH1B",
+    "AGTR1",
+    "AHNAK",
+    "ANXA8",
+    "BBOX1",
+    "BCL2A1",
+    "C1orf116",
+    "CDC42EP3",
+    "CHIT1",
+    "CHP2",
+    "CTSG",
+    "EMP2",
+    "EMP3",
+    "FABP4",
+    "FGFR2",
+    "IPPK",
+    "KLF4",
+    "KLF5",
+    "KLK11",
+    "LAMB3",
+    "LGALS3BP",
+    "LINC01314",
+    "LY6D",
+    "MIR4800",
+    "MMP1",
+    "NEBL",
+    "PIP",
+    "PLOD3",
+    "PLPPR4",
+    "PSPH",
+    "S100A14",
+    "S100A7",
+    "SCGB1D2",
+    "SOX15",
+    "TMEM45A",
+    "TRIB2",
+    "TSPAN8",
+    "TUBB4A",
+    "TUFT1"
+  ],
+  "ppi_enrichment_p": 2.06e-41,
+  "expected_edges": 2,
+  "top_betweenness": [
+    {
+      "gene": "DSP",
+      "degree": 7,
+      "betweenness": 0.106
+    },
+    {
+      "gene": "LOR",
+      "degree": 7,
+      "betweenness": 0.094
+    },
+    {
+      "gene": "SPRR1B",
+      "degree": 6,
+      "betweenness": 0.06
+    },
+    {
+      "gene": "KRT1",
+      "degree": 8,
+      "betweenness": 0.05
+    },
+    {
+      "gene": "FLG",
+      "degree": 5,
+      "betweenness": 0.034
+    }
+  ]
+}

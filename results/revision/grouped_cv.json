@@ -1,0 +1,45 @@
+{
+  "models": [
+    {
+      "model": "KNN",
+      "features": "all-genes",
+      "bal": 0.8709,
+      "sd": 0.0476,
+      "f1": 0.8707
+    },
+    {
+      "model": "KNN",
+      "features": "consensus-15",
+      "bal": 0.888,
+      "sd": 0.0379,
+      "f1": 0.9027
+    },
+    {
+      "model": "MLP",
+      "features": "all-genes",
+      "bal": 0.8604,
+      "sd": 0.0934,
+      "f1": 0.8502
+    },
+    {
+      "model": "MLP",
+      "features": "consensus-15",
+      "bal": 0.7761,
+      "sd": 0.1048,
+      "f1": 0.8077
+    }
+  ],
+  "consensus_bal_mean": 0.887978608408716,
+  "consensus_bal_sd": 0.037876879570482094,
+  "consensus_rank_of_33": 7,
+  "median_selector": 0.8587378392217102,
+  "plppr4_rank1_folds": 5,
+  "genes_in_all_5": [
+    "ANXA8",
+    "KRT14",
+    "KRT16",
+    "PLPPR4",
+    "S100A7",
+    "SERPINB5"
+  ]
+}

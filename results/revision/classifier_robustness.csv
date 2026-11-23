@@ -1,0 +1,100 @@
+classifier,method,bal_acc
+kNN,ANOVA,0.8256164305626671
+kNN,Chi-square,0.7629157421630539
+kNN,Mutual Information,0.846916424873414
+kNN,Information Gain,0.8726824827900096
+kNN,Fisher Score,0.8256164305626671
+kNN,Pearson Correlation,0.7380918245434375
+kNN,Spearman Correlation,0.7309973260510895
+kNN,Kruskal-Wallis,0.8891705069124425
+kNN,Variance Threshold,0.7819895317744779
+kNN,LASSO (L1),0.8859549411162314
+kNN,Elastic Net,0.8358348978779088
+kNN,Ridge (L2),0.7825908858166922
+kNN,Random Forest Importance,0.8682664846105708
+kNN,Extra Trees Importance,0.8742407691870057
+kNN,Permutation Importance,0.8256164305626671
+kNN,Stability Selection,0.8822358764294249
+kNN,Boruta,0.8926216077828981
+kNN,PCA Loading,0.7569113045457131
+kNN,LDA Coefficient,0.7878289810547876
+kNN,CCA,0.7841935483870968
+kNN,mRMR,0.8831529840131991
+kNN,MIFS,0.9045132844057576
+kNN,RFE,0.876078397906355
+kNN,Forward Selection,0.8961290322580645
+kNN,Backward Selection,0.8543522785458268
+kNN,Beam Search,0.8840501792114696
+kNN,Genetic Algorithm,0.8914410877851738
+kNN,PSO,0.8778289810547875
+kNN,ABC,0.8838055413324231
+kNN,ACO,0.9095528247141151
+kNN,Differential Evolution,0.8769568185697217
+kNN,Simulated Annealing,0.8930494396085795
+kNN,CONSENSUS,0.8728696592137453
+logistic,ANOVA,0.8090385162428173
+logistic,Chi-square,0.7189969846959094
+logistic,Mutual Information,0.8476913011321614
+logistic,Information Gain,0.861184502474825
+logistic,Fisher Score,0.8090385162428173
+logistic,Pearson Correlation,0.6547971781305114
+logistic,Spearman Correlation,0.627836377083689
+logistic,Kruskal-Wallis,0.849016328156113
+logistic,Variance Threshold,0.7356073277578654
+logistic,LASSO (L1),0.8600722535131139
+logistic,Elastic Net,0.8349189281447347
+logistic,Ridge (L2),0.6659447004608294
+logistic,Random Forest Importance,0.8512834954770439
+logistic,Extra Trees Importance,0.8912493599590373
+logistic,Permutation Importance,0.8090385162428173
+logistic,Stability Selection,0.8743733287819309
+logistic,Boruta,0.8583404448995846
+logistic,PCA Loading,0.7276014109347443
+logistic,LDA Coefficient,0.7540979689366786
+logistic,CCA,0.7664140638334186
+logistic,mRMR,0.8697701541787562
+logistic,MIFS,0.8420111509358821
+logistic,RFE,0.787590032428742
+logistic,Forward Selection,0.8528565739318428
+logistic,Backward Selection,0.8439028275587415
+logistic,Beam Search,0.8585566365136257
+logistic,Genetic Algorithm,0.893242305285316
+logistic,PSO,0.8550059737156512
+logistic,ABC,0.8788661318768846
+logistic,ACO,0.863510269101667
+logistic,Differential Evolution,0.8765392273994426
+logistic,Simulated Annealing,0.8613489218865563
+logistic,CONSENSUS,0.8855009387267453
+random_forest,ANOVA,0.848567446094328
+random_forest,Chi-square,0.8014723786766798
+random_forest,Mutual Information,0.8662724014336918
+random_forest,Information Gain,0.8739807703248562
+random_forest,Fisher Score,0.848567446094328
+random_forest,Pearson Correlation,0.6614814814814816
+random_forest,Spearman Correlation,0.7194629345166978
+random_forest,Kruskal-Wallis,0.843152984013199
+random_forest,Variance Threshold,0.8230727655458837
+random_forest,LASSO (L1),0.8983700290151904
+random_forest,Elastic Net,0.8627308414405188
+random_forest,Ridge (L2),0.8100921658986175
+random_forest,Random Forest Importance,0.8689719519827047
+random_forest,Extra Trees Importance,0.9117761847869374
+random_forest,Permutation Importance,0.848567446094328
+random_forest,Stability Selection,0.9239267224213462
+random_forest,Boruta,0.9030437503555785
+random_forest,PCA Loading,0.7880628093531319
+random_forest,LDA Coefficient,0.8190880127439268
+random_forest,CCA,0.8616385048643114
+random_forest,mRMR,0.9205746145531093
+random_forest,MIFS,0.8850435227854583
+random_forest,RFE,0.9027496159754224
+random_forest,Forward Selection,0.8924076918700574
+random_forest,Backward Selection,0.8845593673550664
+random_forest,Beam Search,0.8978608408715936
+random_forest,Genetic Algorithm,0.9034658929282585
+random_forest,PSO,0.8986721283495479
+random_forest,ABC,0.8898702850315754
+random_forest,ACO,0.8784240769187006
+random_forest,Differential Evolution,0.8795670478466178
+random_forest,Simulated Annealing,0.9014763611537806
+random_forest,CONSENSUS,0.9323701428002504

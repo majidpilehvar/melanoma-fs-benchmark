@@ -16,6 +16,7 @@ def _find_data():
     if env:
         return env
     for cand in (os.path.join(HERE, "data", "Data.csv"),
+                 os.path.join(HERE, "data", "Data.csv.gz"),  # compressed copy in the repository (pandas reads it directly)
                  os.path.join(HERE, "Main", "Data.csv"),
                  os.path.join(HERE, "Data.csv"),
                  "/mnt/user-data/uploads/Data.csv"):

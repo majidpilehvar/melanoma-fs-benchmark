@@ -1,0 +1,10 @@
+method,kNN,logistic,random_forest,mean,rank_kNN,rank_LR,rank_RF
+CONSENSUS,0.873,0.886,0.932,0.897,17,3,1
+Genetic Algorithm,0.891,0.893,0.903,0.896,6,1,5
+Stability Selection,0.882,0.874,0.924,0.894,12,6,2
+Simulated Annealing,0.893,0.861,0.901,0.885,4,9,8
+mRMR,0.883,0.87,0.921,0.891,11,7,3
+Boruta,0.893,0.858,0.903,0.885,5,13,6
+ACO,0.91,0.864,0.878,0.884,1,8,17
+LASSO (L1),0.886,0.86,0.898,0.881,8,11,10
+Kruskal-Wallis,0.889,0.849,0.843,0.86,7,17,26

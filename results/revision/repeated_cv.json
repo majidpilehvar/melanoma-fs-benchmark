@@ -1,0 +1,114 @@
+{
+  "n_outer_folds": 15,
+  "consensus": {
+    "method": "CONSENSUS",
+    "bal_mean": 0.8706,
+    "bal_sd": 0.0623,
+    "ci_low": 0.8361,
+    "ci_high": 0.9051,
+    "jaccard": 0.3511
+  },
+  "consensus_rank_of_33_kNN": 17,
+  "median_selector_bal": 0.8697538449868198,
+  "median_selector_jaccard": 0.232589102514697,
+  "top_method": "Forward Selection",
+  "top_method_bal": 0.8995575657582826,
+  "genes_in_all_15": [
+    "PLPPR4"
+  ],
+  "genes_in_at_least_12": [
+    "KRT14",
+    "KRT16",
+    "KRT6A",
+    "PLPPR4",
+    "S100A7",
+    "SERPINB5"
+  ],
+  "plppr4_rank1_in_folds": 15,
+  "corrected_tests": {
+    "Kruskal-Wallis": {
+      "mean_difference": 0.017235971250308187,
+      "t": 0.6881518874241324,
+      "p": 0.5026008415747086,
+      "p_holm": 1.0
+    },
+    "LASSO (L1)": {
+      "mean_difference": 0.019005708217177782,
+      "t": 0.5951157861376626,
+      "p": 0.5612627961833523,
+      "p_holm": 1.0
+    },
+    "Stability Selection": {
+      "mean_difference": 0.014527128254726832,
+      "t": 0.412512508380485,
+      "p": 0.686211300205761,
+      "p_holm": 1.0
+    },
+    "ACO": {
+      "mean_difference": 0.009115321158331942,
+      "t": 0.28351057524259204,
+      "p": 0.7809348448747231,
+      "p_holm": 1.0
+    },
+    "MIFS": {
+      "mean_difference": 0.025007111566251343,
+      "t": 0.7423524000112279,
+      "p": 0.47014659856327873,
+      "p_holm": 1.0
+    },
+    "ANOVA": {
+      "mean_difference": -0.060394834158275,
+      "t": -1.2305927290184207,
+      "p": 0.2387511405697646,
+      "p_holm": 1.0
+    },
+    "Variance Threshold": {
+      "mean_difference": -0.1143486753522596,
+      "t": -2.893285160122111,
+      "p": 0.011797543038037326,
+      "p_holm": 0.08258280126626127
+    }
+  },
+  "key_methods": [
+    {
+      "method": "MIFS",
+      "bal_mean": 0.8956,
+      "bal_sd": 0.0377,
+      "ci_low": 0.8747,
+      "ci_high": 0.9165,
+      "jaccard": 0.179
+    },
+    {
+      "method": "LASSO (L1)",
+      "bal_mean": 0.8896,
+      "bal_sd": 0.0421,
+      "ci_low": 0.8663,
+      "ci_high": 0.9129,
+      "jaccard": 0.3691
+    },
+    {
+      "method": "Kruskal-Wallis",
+      "bal_mean": 0.8878,
+      "bal_sd": 0.0449,
+      "ci_low": 0.8629,
+      "ci_high": 0.9127,
+      "jaccard": 0.3844
+    },
+    {
+      "method": "Stability Selection",
+      "bal_mean": 0.8851,
+      "bal_sd": 0.0459,
+      "ci_low": 0.8597,
+      "ci_high": 0.9105,
+      "jaccard": 0.5306
+    },
+    {
+      "method": "ACO",
+      "bal_mean": 0.8797,
+      "bal_sd": 0.0556,
+      "ci_low": 0.8489,
+      "ci_high": 0.9105,
+      "jaccard": 0.0479
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+method,mean_rank,worst_rank,best_rank,mean_bal
+Genetic Algorithm,4.0,6.0,1.0,0.896
+Stability Selection,6.667,12.0,2.0,0.894
+Simulated Annealing,7.0,9.0,4.0,0.885
+CONSENSUS,7.0,17.0,1.0,0.897
+mRMR,7.0,11.0,3.0,0.891
+Extra Trees Importance,7.333,16.0,2.0,0.892
+Boruta,8.0,13.0,5.0,0.885
+ACO,8.667,17.0,1.0,0.884
+ABC,9.0,13.0,4.0,0.884
+LASSO (L1),9.667,11.0,8.0,0.881
+Forward Selection,10.0,15.0,3.0,0.88
+Beam Search,10.667,12.0,9.0,0.88
+Differential Evolution,11.667,16.0,5.0,0.878
+MIFS,12.0,20.0,2.0,0.877
+PSO,12.0,14.0,9.0,0.877
+Information Gain,15.333,18.0,10.0,0.869
+RFE,15.667,25.0,7.0,0.855
+Kruskal-Wallis,16.667,26.0,7.0,0.86
+Random Forest Importance,18.0,19.0,16.0,0.863
+Backward Selection,18.0,20.0,15.0,0.861
+Mutual Information,19.667,21.0,18.0,0.854
+Elastic Net,21.333,22.0,21.0,0.844
+ANOVA,23.667,24.0,23.0,0.828
+Permutation Importance,23.667,24.0,23.0,0.828
+Fisher Score,23.667,24.0,23.0,0.828
+CCA,25.0,27.0,22.0,0.804
+LDA Coefficient,27.0,28.0,26.0,0.787
+Variance Threshold,28.0,29.0,27.0,0.78
+Ridge (L2),29.333,31.0,28.0,0.753
+Chi-square,30.0,30.0,30.0,0.761
+PCA Loading,30.333,31.0,29.0,0.758
+Pearson Correlation,32.333,33.0,32.0,0.685
+Spearman Correlation,32.667,33.0,32.0,0.693
